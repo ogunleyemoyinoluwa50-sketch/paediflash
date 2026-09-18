@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PaediFlash - Paediatrics Picture Test Flashcards</title>
+  <meta name="description" content="High-yield interactive medical flashcards with in-depth explanations for the Paediatrics Picture Test.">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+  <!-- Top Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <div class="brand" onclick="switchTab('study')">
+        <div class="brand-icon">PF</div>
+        <div class="brand-text">
+          <h1>PaediFlash</h1>
+          <p>Paediatrics Picture Test • 442 Slides</p>
+        </div>
+      </div>
+
+      <nav class="nav-tabs">
+        <button class="nav-tab-btn active" id="tab-study-btn" onclick="switchTab('study')">
+          <span>🎴</span> Flashcards
+        </button>
+        <button class="nav-tab-btn" id="tab-library-btn" onclick="switchTab('library')">
+          <span>📚</span> Browse Deck
+        </button>
+        <button class="nav-tab-btn" id="tab-quiz-btn" onclick="switchTab('quiz')">
+          <span>📝</span> Practice Exam
+        </button>
+        <button class="nav-tab-btn" id="tab-pdf-btn" onclick="switchTab('pdf')">
+          <span>📄</span> PDF Navigator
+        </button>
+        <button class="nav-tab-btn" id="tab-stats-btn" onclick="switchTab('stats')">
+          <span>📊</span> Stats
+        </button>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="btn-icon" id="theme-toggle-btn" title="Toggle Dark/Light Mode" onclick="toggleTheme()">
+          🌓
+        </button>
+        <button class="btn-icon" id="tts-toggle-btn" title="Read Vignette Aloud" onclick="readAloudVignette()">
+          🔊
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="main-content">
+
+    <!-- 1. FLASHCARD STUDY MODE -->
+    <section id="view-study" class="view-panel">
+      <!-- Top Filter Bar -->
+      <div class="filter-bar">
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="study-search-input" placeholder="Search case by title, condition, or sign..." oninput="handleSearch(this.value)">
+        </div>
+
+        <div class="filter-selects">
+          <select id="study-category-select" class="custom-select" onchange="filterByCategory(this.value)">
+            <option value="All">All Specialties (10)</option>
+          </select>
+
+          <select id="study-deck-select" class="custom-select" onchange="filterByDeck(this.value)">
+            <option value="All">All Decks (6)</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="study-container">
+        <!-- Progress Counter -->
+        <div class="study-header">
+          <div class="progress-info">
+            <span id="card-counter" style="font-weight: 700; font-size: 0.95rem;">Card 1 of 65</span>
+            <div class="progress-bar-container">
+              <div class="progress-bar-fill" id="card-progress-bar" style="width: 1.5%;"></div>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 0.5rem; align-items: center;">
+            <button class="btn-secondary" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;" onclick="toggleBookmarkCurrentCard()" id="bookmark-btn">
+              ⭐ Bookmark
+            </button>
+            <button class="btn-secondary" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;" onclick="viewOriginalSlideForCurrentCard()">
+              📑 Open Slide <span id="current-slide-page-num">#1</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Flashcard Box -->
+        <div class="card-wrapper">
+          <div class="flashcard" id="flashcard-element">
+            
+            <div class="card-topbar">
+              <div class="card-badges">
+                <span class="badge badge-primary" id="card-category-badge">Oncology & Hematology</span>
+                <span class="badge badge-deck" id="card-deck-badge">Classic Picture Test</span>
+                <span class="badge" id="card-mastery-badge" style="background: #e2e8f0; color: #475569;">Unstudied</span>
+              </div>
+              <div style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600;">
+                Original PDF Page <span id="card-page-label">1</span>
+              </div>
+            </div>
+
+            <div class="card-title-section">
+              <h2 id="card-title">Orbital Mass & Proptosis in a 4-Year-Old</h2>
+              <div class="card-vignette" id="card-vignette">
+                With regards to the 4-year-old boy shown presenting with unilateral periorbital ecchymosis, proptosis, and an abdominal mass:
+              </div>
+            </div>
+
+            <!-- Card Body: Image & Statements -->
+            <div class="card-body-grid">
+              <!-- Clinical Picture Column -->
+              <div class="clinical-image-col">
+                <div class="image-container" onclick="openImageModal()">
+                  <img id="card-clinical-img" class="clinical-img" src="/api/page/1" alt="Paediatrics Test Picture" loading="lazy">
+                  <button class="image-overlay-btn" type="button">
+                    <span>🔍</span> Click to Expand
+                  </button>
+                </div>
+                <p class="image-caption">Clinical Image / Radiograph from Slide Test Paper</p>
+              </div>
+
+              <!-- Statements & Answers Column -->
+              <div class="statements-col">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+                  <span style="font-size: 0.85rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase;">
+                    Select True (T) or False (F) for active recall:
+                  </span>
+                  <button style="background: none; border: none; color: var(--primary); font-size: 0.8rem; cursor: pointer; font-weight: 600;" onclick="resetCardChoices()">
+                    Clear Choices
+                  </button>
+                </div>
+
+                <div class="statements-list" id="statements-list">
+                  <!-- Rendered via JavaScript -->
+                </div>
+              </div>
+            </div>
+
+            <!-- Revealed Content: High Yield Summary & Original Notes -->
+            <div id="revealed-section" style="display: none;">
+              <div class="clinical-summary-box" id="clinical-summary-box">
+                <h3>💡 High-Yield Clinical Summary & Board Takeaways</h3>
+                <p id="clinical-summary-text"></p>
+              </div>
+
+              <div class="original-notes-box" id="original-notes-box">
+                <span>📝</span>
+                <div>
+                  <strong>Original Exam Slide Notes:</strong>
+                  <span id="original-notes-text"></span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card Bottom Bar: Actions & SRS -->
+            <div class="card-bottom-bar">
+              <div id="reveal-btn-container">
+                <button class="btn-primary" id="reveal-card-btn" onclick="toggleRevealAnswers()">
+                  <span>👁️</span> Check Answers & Explain All
+                </button>
+              </div>
+
+              <div class="srs-controls" id="srs-controls" style="display: none;">
+                <span class="srs-title">Self-Rating:</span>
+                <button class="btn-srs btn-again" onclick="rateCard('again')">🔴 Again</button>
+                <button class="btn-srs btn-hard" onclick="rateCard('hard')">🟡 Hard</button>
+                <button class="btn-srs btn-good" onclick="rateCard('good')">🔵 Good</button>
+                <button class="btn-srs btn-easy" onclick="rateCard('easy')">🟢 Easy</button>
+              </div>
+
+              <div style="display: flex; gap: 0.5rem;">
+                <button class="btn-secondary" onclick="prevCard()" title="Previous Card (Left Arrow)">
+                  ⬅ Previous
+                </button>
+                <button class="btn-secondary" onclick="randomCard()" title="Random Card">
+                  🔀 Random
+                </button>
+                <button class="btn-secondary" onclick="nextCard()" title="Next Card (Right Arrow)">
+                  Next ➡
+                </button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 2. CARD BROWSE / LIBRARY MODE -->
+    <section id="view-library" class="view-panel" style="display: none;">
+      <div class="filter-bar">
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="library-search-input" placeholder="Search across all 65 cards..." oninput="handleLibrarySearch(this.value)">
+        </div>
+
+        <div class="filter-selects">
+          <select id="library-category-select" class="custom-select" onchange="filterLibraryCategory(this.value)">
+            <option value="All">All Specialties</option>
+          </select>
+          <select id="library-status-select" class="custom-select" onchange="filterLibraryStatus(this.value)">
+            <option value="All">All Statuses</option>
+            <option value="unstudied">Unstudied</option>
+            <option value="learning">Learning / Needs Review</option>
+            <option value="mastered">Mastered</option>
+            <option value="bookmarked">Bookmarked ⭐</option>
+          </select>
+        </div>
+      </div>
+
+      <div style="margin-bottom: 1rem; color: var(--text-muted); font-size: 0.9rem;">
+        Showing <span id="library-count" style="font-weight: 700; color: var(--text-primary);">65</span> cards
+      </div>
+
+      <div class="library-grid" id="library-grid">
+        <!-- Rendered via JavaScript -->
+      </div>
+    </section>
+
+    <!-- 3. PRACTICE / QUIZ MODE -->
+    <section id="view-quiz" class="view-panel" style="display: none;">
+      <!-- Quiz Setup -->
+      <div id="quiz-setup-container" class="quiz-config-card">
+        <h2 style="font-size: 1.5rem; font-weight: 700;">📝 Practice Exam Simulation</h2>
+        <p style="color: var(--text-muted); font-size: 0.95rem;">
+          Test yourself in exam conditions. Answer 5 true/false statements per clinical slide, get scored immediately, and review detailed medical explanations.
+        </p>
+
+        <div>
+          <label style="display: block; font-weight: 600; margin-bottom: 0.4rem; font-size: 0.9rem;">Number of Questions:</label>
+          <select id="quiz-length-select" class="custom-select" style="width: 100%;">
+            <option value="5">5 Quick Questions (~10 mins)</option>
+            <option value="10" selected>10 Questions Standard (~20 mins)</option>
+            <option value="20">20 Questions Full Mock (~40 mins)</option>
+            <option value="all">All Available Questions</option>
+          </select>
+        </div>
+
+        <div>
+          <label style="display: block; font-weight: 600; margin-bottom: 0.4rem; font-size: 0.9rem;">Subject / Specialty:</label>
+          <select id="quiz-category-select" class="custom-select" style="width: 100%;">
+            <option value="All">Comprehensive Mixed Paediatrics</option>
+          </select>
+        </div>
+
+        <button class="btn-primary" style="justify-content: center; padding: 0.9rem; font-size: 1rem;" onclick="startQuizSession()">
+          🚀 Begin Practice Exam
+        </button>
+      </div>
+
+      <!-- Active Quiz View -->
+      <div id="quiz-active-container" style="display: none;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+          <span style="font-weight: 700; font-size: 1.1rem;" id="quiz-question-counter">Question 1 of 10</span>
+          <div style="display: flex; gap: 1rem; align-items: center;">
+            <span id="quiz-timer" style="font-family: monospace; font-weight: 700; font-size: 1.1rem; color: var(--primary);">00:00</span>
+            <button class="btn-secondary" style="padding: 0.35rem 0.75rem;" onclick="endQuizSessionEarly()">Exit Exam</button>
+          </div>
+        </div>
+
+        <div id="quiz-card-placeholder">
+          <!-- Current quiz card rendered dynamically -->
+        </div>
+
+        <div style="display: flex; justify-content: flex-end; margin-top: 1.5rem;">
+          <button class="btn-primary" id="quiz-submit-btn" onclick="submitCurrentQuizQuestion()">
+            Submit & Next Question ➡
+          </button>
+        </div>
+      </div>
+
+      <!-- Quiz Final Score Report -->
+      <div id="quiz-results-container" class="quiz-score-report" style="display: none;">
+        <h2 style="font-size: 1.75rem; font-weight: 800; color: var(--text-primary);">Exam Complete! 🎉</h2>
+        <p style="color: var(--text-muted); margin-top: 0.5rem;">Here is your performance summary for this session:</p>
+        
+        <div class="score-circle">
+          <div class="score-number" id="quiz-score-percentage">85%</div>
+          <div class="score-label" id="quiz-score-fraction">42 / 50 statements</div>
+        </div>
+
+        <div style="max-width: 500px; margin: 1.5rem auto; text-align: left;" id="quiz-specialty-breakdown">
+          <!-- Rendered dynamically -->
+        </div>
+
+        <div style="display: flex; justify-content: center; gap: 1rem; margin-top: 1.5rem;">
+          <button class="btn-primary" onclick="restartQuiz()">🔄 Retake Exam</button>
+          <button class="btn-secondary" onclick="switchTab('study')">🎴 Return to Flashcards</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. ORIGINAL PDF SLIDE NAVIGATOR -->
+    <section id="view-pdf" class="view-panel" style="display: none;">
+      <div class="pdf-nav-container">
+        <div class="pdf-controls">
+          <div style="display: flex; align-items: center; gap: 0.75rem;">
+            <button class="btn-secondary" onclick="navPdfPrev()">⬅ Previous</button>
+            <button class="btn-secondary" onclick="navPdfNext()">Next ➡</button>
+            <div style="display: flex; align-items: center; gap: 0.4rem;">
+              <span>Jump to Slide:</span>
+              <input type="number" id="pdf-jump-input" class="page-jump-input" value="1" min="1" max="442" onchange="jumpPdfPage(this.value)">
+              <span>/ 442</span>
+            </div>
+          </div>
+
+          <div style="display: flex; align-items: center; gap: 0.5rem;">
+            <button class="btn-secondary" onclick="zoomPdfIn()">➕ Zoom In</button>
+            <button class="btn-secondary" onclick="zoomPdfOut()">➖ Zoom Out</button>
+            <button class="btn-primary" id="open-matching-card-btn" onclick="openMatchingCardFromPdf()" style="display: none;">
+              🎴 Study This Slide as Card
+            </button>
+          </div>
+        </div>
+
+        <div class="pdf-viewer-frame">
+          <img id="pdf-viewer-img" class="pdf-full-img" src="/api/page/1?dpi=150" alt="PDF Slide">
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. STATS & ANALYTICS DASHBOARD -->
+    <section id="view-stats" class="view-panel" style="display: none;">
+      <div style="background: var(--bg-secondary); border-radius: var(--radius); border: 1px solid var(--border-color); padding: 2rem; box-shadow: var(--card-shadow);">
+        <h2 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 0.5rem;">📊 Study Analytics & Progress</h2>
+        <p style="color: var(--text-muted); margin-bottom: 1.5rem;">Your personal study retention and active recall performance statistics.</p>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 2rem;">
+          <div style="background: var(--bg-tertiary); padding: 1.25rem; border-radius: var(--radius-sm); text-align: center;">
+            <div style="font-size: 2rem; font-weight: 800; color: var(--primary);" id="stat-cards-studied">0 / 65</div>
+            <div style="font-size: 0.85rem; color: var(--text-muted);">Cards Studied</div>
+          </div>
+          <div style="background: var(--bg-tertiary); padding: 1.25rem; border-radius: var(--radius-sm); text-align: center;">
+            <div style="font-size: 2rem; font-weight: 800; color: #10b981;" id="stat-mastery-rate">0%</div>
+            <div style="font-size: 0.85rem; color: var(--text-muted);">Mastery Rate</div>
+          </div>
+          <div style="background: var(--bg-tertiary); padding: 1.25rem; border-radius: var(--radius-sm); text-align: center;">
+            <div style="font-size: 2rem; font-weight: 800; color: #f59e0b;" id="stat-answers-accuracy">0%</div>
+            <div style="font-size: 0.85rem; color: var(--text-muted);">T/F Statement Accuracy</div>
+          </div>
+          <div style="background: var(--bg-tertiary); padding: 1.25rem; border-radius: var(--radius-sm); text-align: center;">
+            <div style="font-size: 2rem; font-weight: 800; color: #8b5cf6;" id="stat-bookmarked-count">0</div>
+            <div style="font-size: 0.85rem; color: var(--text-muted);">Bookmarked Cards</div>
+          </div>
+        </div>
+
+        <h3 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 1rem;">Progress by Pediatric Subspecialty</h3>
+        <div id="stats-specialty-bars" style="display: flex; flex-direction: column; gap: 0.85rem;">
+          <!-- Rendered dynamically -->
+        </div>
+
+        <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-color); display: flex; justify-content: flex-end;">
+          <button class="btn-secondary" style="color: var(--danger);" onclick="resetAllStudyProgress()">
+            🗑️ Reset Study History
+          </button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Image Lightbox Modal -->
+  <div class="modal-backdrop" id="image-modal" onclick="closeImageModal(event)">
+    <div class="modal-content">
+      <button class="modal-close-btn" onclick="closeImageModal()">&times;</button>
+      <img id="modal-img-element" class="modal-img" src="" alt="High Resolution Clinical Image">
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast">Saved to review queue</div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

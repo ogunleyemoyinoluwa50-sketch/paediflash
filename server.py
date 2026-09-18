@@ -8,7 +8,7 @@ from functools import lru_cache
 from typing import Optional
 from fastapi import FastAPI, HTTPException, Query, Response
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import StreamingResponse
+from fastapi.responses import StreamingResponse, FileResponse, HTMLResponse
 from fastapi.staticfiles import StaticFiles
 import pymupdf
 import requests
@@ -24,22 +24,31 @@ app.add_middleware(
 )
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+CWD = os.getcwd()
 
-# 1. LOAD FLASHCARDS (Bulletproof fallback)
+def search_file(filename: str) -> Optional[str]:
+    """Search for a file across root, static, and common subdirectories."""
+    candidates = [
+        os.path.join(BASE_DIR, filename),
+        os.path.join(BASE_DIR, "static", filename),
+        os.path.join(CWD, filename),
+        os.path.join(CWD, "static", filename),
+        os.path.join(BASE_DIR, "PaediFlash_Package", filename),
+        os.path.join(BASE_DIR, "PaediFlash_Package", "static", filename),
+        os.path.join(BASE_DIR, "app", filename),
+        os.path.join(BASE_DIR, "app", "static", filename),
+        os.path.join("/home/user", filename),
+        os.path.join("/home/user/app", filename),
+        os.path.join("/home/user/app/static", filename),
+    ]
+    for p in candidates:
+        if os.path.exists(p) and os.path.isfile(p):
+            return p
+    return None
+
+# 1. LOAD FLASHCARDS
 ALL_CARDS = []
-candidate_card_paths = [
-    os.path.join(BASE_DIR, "cards_data.json"),
-    os.path.join(os.getcwd(), "cards_data.json"),
-    os.path.join(BASE_DIR, "app", "cards_data.json"),
-    os.path.join(os.getcwd(), "app", "cards_data.json"),
-    os.path.join(BASE_DIR, "PaediFlash_Package", "cards_data.json"),
-    os.path.join(os.getcwd(), "PaediFlash_Package", "cards_data.json"),
-    "/home/user/app/cards_data.json",
-    "/home/user/cards_data.json"
-]
-
-cards_file = next((p for p in candidate_card_paths if os.path.exists(p)), None)
-
+cards_file = search_file("cards_data.json")
 if cards_file:
     try:
         with open(cards_file, "r", encoding="utf-8") as f:
@@ -53,23 +62,14 @@ if not ALL_CARDS:
         from cards_data import ALL_CARDS
         print(f"Loaded {len(ALL_CARDS)} cards from python module 'cards_data.py'")
     except Exception as e:
-        print(f"Error loading cards: {e}")
+        print(f"Fallback card import error: {e}")
         ALL_CARDS = []
 
 # 2. LOCATE OR AUTO-DOWNLOAD PDF FILE
 PDF_FILENAME = "Completed Paediatrics Picture Test.pdf"
 GDRIVE_FILE_ID = "1bhCCc2okXBegBN3oQRLCxqE4xcQr9CCM"
 
-candidate_pdf_paths = [
-    os.path.join(BASE_DIR, PDF_FILENAME),
-    os.path.join(os.getcwd(), PDF_FILENAME),
-    os.path.join(os.path.dirname(BASE_DIR), PDF_FILENAME),
-    os.path.join(BASE_DIR, "app", PDF_FILENAME),
-    os.path.join(os.getcwd(), "app", PDF_FILENAME),
-    os.path.join("/home/user", PDF_FILENAME),
-]
-PDF_PATH = next((p for p in candidate_pdf_paths if os.path.exists(p) and os.path.getsize(p) > 1000000), None)
-
+PDF_PATH = search_file(PDF_FILENAME)
 doc = None
 pdf_lock = threading.Lock()
 pdf_download_in_progress = False
@@ -84,7 +84,7 @@ def init_doc(filepath):
     except Exception as e:
         print(f"Error opening PDF at {filepath}: {e}")
 
-if PDF_PATH:
+if PDF_PATH and os.path.getsize(PDF_PATH) > 1000000:
     init_doc(PDF_PATH)
 
 def download_pdf_from_gdrive():
@@ -103,9 +103,9 @@ def download_pdf_from_gdrive():
             action = match.group(1)
             inputs = re.findall(r'<input type="hidden" name="([^"]+)" value="([^"]*)"', match.group(2))
             params = {k: v for k, v in inputs}
-            file_resp = session.get(action, params=params, stream=True, timeout=120)
+            file_resp = session.get(action, params=params, stream=True, timeout=180)
         else:
-            file_resp = session.get(url, stream=True, timeout=120)
+            file_resp = session.get(url, stream=True, timeout=180)
 
         if file_resp.status_code == 200:
             temp_path = target_path + ".tmp"
@@ -126,22 +126,32 @@ def download_pdf_from_gdrive():
     finally:
         pdf_download_in_progress = False
 
-# If PDF is not present, launch background downloader immediately
 if not doc:
     threading.Thread(target=download_pdf_from_gdrive, daemon=True).start()
 
-# 3. LOCATE STATIC FOLDER
-candidate_static_paths = [
-    os.path.join(BASE_DIR, "static"),
-    os.path.join(os.getcwd(), "static"),
-    os.path.join(BASE_DIR, "app", "static"),
-    os.path.join(os.getcwd(), "app", "static"),
-    os.path.join(BASE_DIR, "PaediFlash_Package", "static"),
-    "/home/user/app/static"
-]
-static_dir = next((p for p in candidate_static_paths if os.path.exists(p)), os.path.join(BASE_DIR, "static"))
-os.makedirs(static_dir, exist_ok=True)
+# 3. EXPLICIT FRONTEND ROUTES (Guarantees 200 OK on Render regardless of folder layout)
+@app.api_route("/", methods=["GET", "HEAD"])
+def get_index():
+    path = search_file("index.html")
+    if path:
+        return FileResponse(path, media_type="text/html")
+    return HTMLResponse("<h2>PaediFlash API is Live!</h2>", status_code=200)
 
+@app.api_route("/styles.css", methods=["GET", "HEAD"])
+def get_css():
+    path = search_file("styles.css")
+    if path:
+        return FileResponse(path, media_type="text/css")
+    return Response(content="", media_type="text/css")
+
+@app.api_route("/app.js", methods=["GET", "HEAD"])
+def get_js():
+    path = search_file("app.js")
+    if path:
+        return FileResponse(path, media_type="text/javascript")
+    return Response(content="", media_type="text/javascript")
+
+# 4. API ROUTES
 @lru_cache(maxsize=200)
 def render_page_image(page_num: int, dpi: int = 130) -> Optional[bytes]:
     if not doc:
@@ -161,7 +171,7 @@ def get_page_image(page_num: int, dpi: int = Query(130, ge=72, le=300)):
                 <rect width="600" height="400" fill="#0f172a"/>
                 <circle cx="300" cy="180" r="30" stroke="#38bdf8" stroke-width="4" fill="none" stroke-dasharray="120" stroke-linecap="round"/>
                 <text x="50%" y="240" dominant-baseline="middle" text-anchor="middle" fill="#f8fafc" font-family="sans-serif" font-size="16" font-weight="bold">Downloading slide images from Google Drive...</text>
-                <text x="50%" y="270" dominant-baseline="middle" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="13">This takes just a few seconds on first launch. Refresh soon!</text>
+                <text x="50%" y="270" dominant-baseline="middle" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="13">Takes ~5 seconds on first launch. Refresh soon!</text>
             </svg>"""
         else:
             svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
@@ -236,8 +246,10 @@ def get_pdf_info():
         "total_cards": len(ALL_CARDS)
     }
 
-# Mount static frontend
-app.mount("/", StaticFiles(directory=static_dir, html=True), name="static")
+# Also mount static directory if it exists as a catch-all
+static_path = search_file("index.html")
+if static_path:
+    app.mount("/static", StaticFiles(directory=os.path.dirname(static_path)), name="static_dir")
 
 if __name__ == "__main__":
     import uvicorn
