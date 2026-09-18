@@ -151,6 +151,20 @@ def get_js():
         return FileResponse(path, media_type="text/javascript")
     return Response(content="", media_type="text/javascript")
 
+@app.api_route("/cards_data.js", methods=["GET", "HEAD"])
+def get_cards_data_js():
+    path = search_file("cards_data.js")
+    if path:
+        return FileResponse(path, media_type="text/javascript")
+    return Response(content="window.PRELOADED_CARDS = [];", media_type="text/javascript")
+
+@app.api_route("/Paediatrics_Picture_Test_442.apkg", methods=["GET", "HEAD"])
+def get_apkg():
+    path = search_file("Paediatrics_Picture_Test_442.apkg")
+    if path:
+        return FileResponse(path, media_type="application/octet-stream", filename="Paediatrics_Picture_Test_442.apkg")
+    raise HTTPException(status_code=404, detail="APKG file not found")
+
 # 4. API ROUTES
 @lru_cache(maxsize=200)
 def render_page_image(page_num: int, dpi: int = 130) -> Optional[bytes]:
