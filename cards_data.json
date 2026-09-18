@@ -1,0 +1,2732 @@
+[
+  {
+    "id": "card_001",
+    "page": 1,
+    "deck": "Classic Picture Test",
+    "category": "Oncology & Hematology",
+    "title": "Orbital Mass & Proptosis in a 4-Year-Old",
+    "vignette": "With regards to the 4-year-old boy shown presenting with unilateral periorbital ecchymosis, proptosis, and an abdominal mass:",
+    "statements": [
+      {
+        "id": "1",
+        "text": "There is marked ecchymosis",
+        "answer": false,
+        "explanation": "False. In the presented clinical slide, the primary feature is proptosis and retro-orbital infiltration rather than marked periorbital ecchymosis ('raccoon eyes'). While metastatic neuroblastoma classically presents with racoon eyes (periorbital ecchymosis), this specific image demonstrates marked proptosis without prominent superficial bruising."
+      },
+      {
+        "id": "2",
+        "text": "Rhabdomyosarcoma is a likely diagnosis",
+        "answer": true,
+        "explanation": "True. Orbital rhabdomyosarcoma is the most common primary orbital malignancy in childhood (median age 5-7 years). It classically presents with rapid, painless, unilateral proptosis and chemosis, making it a leading differential diagnosis along with metastatic neuroblastoma."
+      },
+      {
+        "id": "3",
+        "text": "Diagnosis is best obtained by fine needle aspirate cytology",
+        "answer": false,
+        "explanation": "False. Fine needle aspiration cytology (FNAC) is contraindicated or inadequate because tissue architecture, immunohistochemistry (desmin, myogenin for rhabdomyosarcoma), and cytogenetic studies (e.g., PAX3-FOXO1 translocation) are essential for definitive diagnosis and risk stratification. Open incisional or core biopsy is the diagnostic gold standard."
+      },
+      {
+        "id": "4",
+        "text": "Cerebrospinal fluid cytology is essential",
+        "answer": true,
+        "explanation": "True. For parameningeal and orbital head/neck rhabdomyosarcomas (or neuroblastoma with skull base extension), evaluation of CSF cytology is mandatory to rule out central nervous system invasion and leptomeningeal dissemination, which changes staging and staging-directed radiotherapy."
+      },
+      {
+        "id": "5",
+        "text": "Urinary vanillylmandelic acid assay is relevant",
+        "answer": true,
+        "explanation": "True. Urinary catecholamine metabolites, including Homovanillic Acid (HVA) and Vanillylmandelic Acid (VMA), are elevated in >90% of neuroblastomas. Measuring 24-hour urinary VMA/HVA is a cornerstone in distinguishing metastatic neuroblastoma from rhabdomyosarcoma."
+      }
+    ],
+    "clinical_summary": "Orbital masses in young children are medical emergencies. Key differentials include Orbital Rhabdomyosarcoma (primary orbital tumor, desmin+, myogenin+) and Metastatic Neuroblastoma (derived from neural crest, elevated urinary HVA/VMA, racoon eyes, bone marrow involvement). Definitive diagnosis requires tissue biopsy, cross-sectional MRI/CT, and systemic staging.",
+    "original_notes": "Handwritten on slide: FNAC is False -> Biopsy. Note: HVA is elevated, VMA is detectable in urine."
+  },
+  {
+    "id": "card_002",
+    "page": 2,
+    "deck": "Classic Picture Test",
+    "category": "Oncology & Hematology",
+    "title": "Microangiopathic Hemolytic Anemia (MAHA) & Blood Film",
+    "vignette": "With regards to the peripheral blood film shown demonstrating fragmented red blood cells:",
+    "statements": [
+      {
+        "id": "6",
+        "text": "Ghost cells are present",
+        "answer": false,
+        "explanation": "False. Ghost cells (pale, empty red cell membranes resulting from intravascular lysis) are characteristic of severe complement-mediated intravascular hemolysis or Clostridium perfringens sepsis. The blood film shown predominantly displays fragmented red cells (schistocytes, helmet cells, keratocytes)."
+      },
+      {
+        "id": "7",
+        "text": "Prolonged bleeding from puncture sites is in keeping with the condition",
+        "answer": true,
+        "explanation": "True. Consumptive coagulopathy (such as in Disseminated Intravascular Coagulation - DIC) leads to severe thrombocytopenia and depletion of clotting factors (fibrinogen, factors V & VIII), resulting in spontaneous bleeding, oozing from venipuncture sites, and petechiae."
+      },
+      {
+        "id": "8",
+        "text": "Life-long folic acid supplementation is indicated",
+        "answer": false,
+        "explanation": "False. Life-long folic acid supplementation is indicated in chronic congenital hemolytic anemias such as Sickle Cell Disease and Thalassemia Major. MAHA / HUS / DIC are acute conditions; once resolved, life-long folate supplementation is not required."
+      },
+      {
+        "id": "9",
+        "text": "Haemolytic uraemic syndrome is a known cause",
+        "answer": true,
+        "explanation": "True. Hemolytic Uremic Syndrome (HUS), typically triggered by Shiga toxin-producing E. coli (STEC O157:H7), is a classic cause of microangiopathic hemolytic anemia defined by the triad of MAHA (schistocytes), thrombocytopenia, and acute kidney injury."
+      },
+      {
+        "id": "10",
+        "text": "Transfusion with fresh frozen plasma is indicated for the most common cause",
+        "answer": true,
+        "explanation": "True. In Disseminated Intravascular Coagulation (DIC), fresh frozen plasma (FFP) is indicated to replenish depleted coagulation factors in actively bleeding patients or prior to invasive procedures."
+      }
+    ],
+    "clinical_summary": "Microangiopathic Hemolytic Anemia (MAHA) is characterized by mechanical shearing of RBCs as they navigate through microthrombi in small vessels. Hallmarks include schistocytes, elevated LDH, indirect hyperbilirubinemia, and absent haptoglobin. Major pediatric etiologies: HUS, DIC, and TTP.",
+    "original_notes": "Annotated: Microangiopathic hemolytic anemia -> 1) DIC, 2) Hemolytic Uremic Syndrome. Schistocytes marked."
+  },
+  {
+    "id": "card_003",
+    "page": 4,
+    "deck": "Classic Picture Test",
+    "category": "Nutrition & Endocrinology",
+    "title": "Ambiguous Genitalia in a 3-Year-Old",
+    "vignette": "The following are true of the condition shown in this 3-year-old with ambiguous genitalia:",
+    "statements": [
+      {
+        "id": "16",
+        "text": "A history of drug use in pregnancy is important in the evaluation",
+        "answer": true,
+        "explanation": "True. Maternal exposure to virilizing agents during gestation (e.g., androgens, danazol, progestins) can virilize a female (46,XX) fetus. A thorough drug and maternal history is a mandatory first step."
+      },
+      {
+        "id": "17",
+        "text": "Two urogenital openings may signify 46,XX DSD",
+        "answer": true,
+        "explanation": "True. Separate urethral and vaginal orifices (or partially conjoined openings on the perineum) are typically seen in undermasculinized 46,XY individuals or virilized 46,XX females with lower Prader staging."
+      },
+      {
+        "id": "18",
+        "text": "Karyotyping is essential",
+        "answer": true,
+        "explanation": "True. High-resolution karyotype (or FISH for SRY / XX / XY) is crucial in evaluating Disorders of Sex Development (DSD) to establish genetic chromosomal sex and direct hormone investigations."
+      },
+      {
+        "id": "19",
+        "text": "5-alpha reductase deficiency is the commonest cause",
+        "answer": false,
+        "explanation": "False. Congenital Adrenal Hyperplasia (CAH), specifically 21-hydroxylase deficiency, is by far the commonest cause of ambiguous genitalia (accounting for >90% of virilized 46,XX infants). 5-alpha reductase deficiency is a rare 46,XY DSD."
+      },
+      {
+        "id": "20",
+        "text": "No intervention is required till puberty",
+        "answer": false,
+        "explanation": "False. Life-threatening adrenal salt-wasting crises (hyponatremia, hyperkalemia, vascular collapse) can occur in untreated 21-hydroxylase deficiency within the first 2-3 weeks of life. Early diagnosis, hydrocortisone and fludrocortisone replacement, and multidisciplinary gender assignment are urgently required."
+      }
+    ],
+    "clinical_summary": "Disorders of Sex Development (DSD) presenting with ambiguous genitalia require emergency evaluation to exclude life-threatening salt-losing CAH (check 17-OHP, electrolytes, karyotype, pelvic ultrasound for M\u00fcllerian structures). Never assign sex until expert multidisciplinary assessment is complete.",
+    "original_notes": "Annotated: Ambiguous genitalia. 5-alpha reductase deficiency is NOT the commonest cause -> CAH is commonest."
+  },
+  {
+    "id": "card_004",
+    "page": 5,
+    "deck": "Classic Picture Test",
+    "category": "Neonatology & Perinatal",
+    "title": "Neonatal Jaundice in a 2-Day-Old Preterm Baby",
+    "vignette": "Regarding the 2-day-old baby shown receiving nursery care for neonatal hyperbilirubinemia:",
+    "statements": [
+      {
+        "id": "21",
+        "text": "The gestational age is less than 37 weeks",
+        "answer": true,
+        "explanation": "True. Physical features including translucent shiny skin, minimal subcutaneous fat, poorly formed ear cartilage, and rudimentary sole creases confirm preterm gestation (<37 completed weeks)."
+      },
+      {
+        "id": "22",
+        "text": "Features are suggestive of maternal diabetes mellitus",
+        "answer": false,
+        "explanation": "False. Infants of diabetic mothers (IDM) are typically large for gestational age (macrosomic, plethoric, round 'cushingoid' facies, thick shoulders). The baby shown has low birth weight and preterm wasting features, inconsistent with IDM."
+      },
+      {
+        "id": "23",
+        "text": "The use of intravenous phenobarbitone is indicated",
+        "answer": false,
+        "explanation": "False. Intravenous phenobarbitone is not an acute treatment for neonatal hyperbilirubinemia. While phenobarbital induces hepatic UDP-glucuronosyltransferase, it takes days to exert its effect and is contraindicated in acute neonatal jaundice due to sedation and hypothermia risks. Phototherapy and exchange transfusion are indicated."
+      },
+      {
+        "id": "24",
+        "text": "Oxygen therapy is not indicated",
+        "answer": true,
+        "explanation": "True. Routine oxygen is not indicated unless the infant demonstrates hypoxemia (low SpO2) or respiratory distress. Excessive oxygen in preterms causes Retinopathy of Prematurity (ROP) and bronchopulmonary dysplasia (BPD)."
+      },
+      {
+        "id": "25",
+        "text": "Monitoring of serum bilirubin is required",
+        "answer": true,
+        "explanation": "True. Total and conjugated serum bilirubin must be tracked against hour-specific nomograms (Bhutani curves) and birth-weight-adjusted charts to prevent acute bilirubin encephalopathy (kernicterus)."
+      }
+    ],
+    "clinical_summary": "Preterm infants are exceptionally vulnerable to bilirubin neurotoxicity due to a permeable blood-brain barrier and immature liver conjugation. Management relies on intensive blue phototherapy (460-490 nm wavelength) and exchange blood transfusion (EBT) guided by gestational age and birth weight thresholds.",
+    "original_notes": "Marked: Phenobarbitone False; SBR monitoring True."
+  },
+  {
+    "id": "card_005",
+    "page": 6,
+    "deck": "Classic Picture Test",
+    "category": "Neonatology & Perinatal",
+    "title": "Kangaroo Mother Care (KMC)",
+    "vignette": "Concerning the practice of Kangaroo Mother Care (KMC) shown in the clinical picture:",
+    "statements": [
+      {
+        "id": "26",
+        "text": "It is contraindicated in babies weighing less than 2kg",
+        "answer": false,
+        "explanation": "False. Low birth weight (<2.5 kg) and very low birth weight (<1.5 kg) neonates who are clinically stable are the PRIMARY target population and greatest beneficiaries of KMC."
+      },
+      {
+        "id": "27",
+        "text": "The cap on the baby's head reduces the benefit of the practice",
+        "answer": false,
+        "explanation": "False. The infant's head represents ~20% of total body surface area in neonates. A wool or cotton cap prevents significant conductive and convective heat loss from the scalp, serving as an essential component of the KMC thermal wrap."
+      },
+      {
+        "id": "28",
+        "text": "Hypothermia is a recognised complication",
+        "answer": false,
+        "explanation": "False. KMC actively prevents hypothermia through maternal-infant conducto-thermal synchrony; the mother's skin temperature dynamically adjusts to warm the infant. Hypothermia is an indication for KMC, not a complication."
+      },
+      {
+        "id": "29",
+        "text": "It reduces the length of hospital stay",
+        "answer": true,
+        "explanation": "True. Robust WHO trials demonstrate that continuous KMC significantly accelerates infant weight gain, reduces severe nosocomial infections, stabilizes heart/respiratory rates, and shortens hospital stay."
+      },
+      {
+        "id": "30",
+        "text": "It protects the mother from depression",
+        "answer": true,
+        "explanation": "True. Skin-to-skin contact triggers maternal oxytocin release, promoting maternal-infant bonding, enhancing breast milk ejection, reducing maternal anxiety, and significantly lowering the risk of postpartum depression."
+      }
+    ],
+    "clinical_summary": "Kangaroo Mother Care consists of early, continuous, and prolonged skin-to-skin contact between mother and baby, coupled with exclusive breastfeeding. It reduces mortality in low-birth-weight neonates by over 40% and is a standard of care worldwide.",
+    "original_notes": "Highlighted: KMC reduces hospital stay (T) and protects mother from depression (T)."
+  },
+  {
+    "id": "card_006",
+    "page": 7,
+    "deck": "Classic Picture Test",
+    "category": "Nephrology & Urology",
+    "title": "Intravenous Urogram (IVU) & Hydronephrosis in an 8-Year-Old",
+    "vignette": "Concerning this Intravenous Urogram (IVU) in an 8-year-old boy with a history of recurrent abdominal pain and fever of 4 years duration:",
+    "statements": [
+      {
+        "id": "31",
+        "text": "The most likely diagnosis is posterior urethral valves",
+        "answer": false,
+        "explanation": "False. Posterior Urethral Valves (PUV) present in infancy (or antenatally) with bilateral hydroureteronephrosis, distended bladder, and poor urinary stream. In an 8-year-old with unilateral loin pain and caliceal ballooning, the classic diagnosis is Pelviureteric Junction (PUJ) obstruction (hydronephrosis)."
+      },
+      {
+        "id": "32",
+        "text": "A ballotable right kidney is expected",
+        "answer": true,
+        "explanation": "True. Chronic severe hydronephrosis produces marked distension of the renal pelvis and parenchyma, presenting clinically as a palpable, bimanually ballotable flank/loin mass."
+      },
+      {
+        "id": "33",
+        "text": "Urethral catheterization will lead to resolution of the acute symptoms",
+        "answer": false,
+        "explanation": "False. Urethral catheterization decompresses the bladder, which is effective for lower urinary tract obstruction (e.g., PUV). It does not decompress an upper tract pelviureteric junction obstruction; percutaneous nephrostomy or surgical pyeloplasty is needed."
+      },
+      {
+        "id": "34",
+        "text": "Positive right renal angle tenderness is an unusual finding",
+        "answer": false,
+        "explanation": "False. Renal angle tenderness (costovertebral angle tenderness) is a hallmark sign of acute pyelonephritis superimposed on an obstructed, hydronephrotic kidney."
+      },
+      {
+        "id": "35",
+        "text": "He requires urgent dialysis",
+        "answer": false,
+        "explanation": "False. With unilateral PUJ obstruction, the contralateral kidney typically has normal function, maintaining normal serum creatinine and electrolyte clearance. Urgent dialysis is not indicated unless bilateral disease causes end-stage uremia or severe refractory hyperkalemia."
+      }
+    ],
+    "clinical_summary": "Pelviureteric junction (PUJ) obstruction is the commonest congenital cause of hydronephrosis. Presentation in older children includes intermittent flank pain (Dietl's crisis, often after high fluid intake), palpable kidney, hematuria, and UTI. Investigation includes renal ultrasound, MAG3 scan (to assess drainage), and Anderson-Hynes dismembered pyeloplasty.",
+    "original_notes": "Marked: Ballotable right kidney is True; PUV is False."
+  },
+  {
+    "id": "card_007",
+    "page": 8,
+    "deck": "Classic Picture Test",
+    "category": "Nephrology & Urology",
+    "title": "Nephrotic Syndrome in a 5-Year-Old Boy",
+    "vignette": "In this 5-year-old boy presenting with generalised body swelling, periorbital puffiness, and abdominal distension, the following are consistent with the likely diagnosis:",
+    "statements": [
+      {
+        "id": "36",
+        "text": "A history of recurrence of symptoms",
+        "answer": true,
+        "explanation": "True. Minimal Change Disease (MCNS), which accounts for 85-90% of idiopathic nephrotic syndrome in young children, is characterised by a relapsing-remitting course (frequently triggered by minor upper respiratory infections)."
+      },
+      {
+        "id": "37",
+        "text": "Negative fluid thrill on abdominal examination",
+        "answer": false,
+        "explanation": "False. Massive third-space fluid accumulation (ascites) is a cardinal feature of nephrotic syndrome due to profound hypoalbuminemia (<25 g/L). Physical examination demonstrates shifting dullness and a positive fluid thrill."
+      },
+      {
+        "id": "38",
+        "text": "The finding of bilateral pleural effusion on chest x-ray",
+        "answer": true,
+        "explanation": "True. Severe reduction in plasma oncotic pressure leads to transudative pleural effusions, frequently bilateral, visible on CXR as blunting of costophrenic angles."
+      },
+      {
+        "id": "39",
+        "text": "Management includes Intravenous fresh frozen plasma given without frusemide",
+        "answer": false,
+        "explanation": "False. First, IV albumin (not FFP) is the colloid of choice for symptomatic hypoalbuminemia. Second, IV albumin must ALWAYS be accompanied by or followed immediately by intravenous furosemide (frusemide) to prevent acute hypervolemia, flash pulmonary edema, and hypertensive crisis."
+      },
+      {
+        "id": "40",
+        "text": "A risk of thromboembolism",
+        "answer": true,
+        "explanation": "True. Nephrotic syndrome induces a hypercoagulable state due to urinary loss of anticoagulant proteins (antithrombin III, protein S), hepatic overproduction of procoagulant factors (fibrinogen), hemoconcentration, and thrombocytosis. Renal vein thrombosis and DVT are major risks."
+      }
+    ],
+    "clinical_summary": "Nephrotic syndrome is diagnosed by the triad of: 1) Massive proteinuria (>40 mg/m2/hr or urine protein-to-creatinine ratio >200 mg/mmol), 2) Hypoalbuminemia (<25 g/L), and 3) Generalized edema. Associated hyperlipidemia is classic. First-line therapy is oral prednisolone (60 mg/m2/day for 4-6 weeks followed by alternate-day tapering).",
+    "original_notes": "Note: Serum albumin <25 g/L; Thromboembolism risk is True."
+  },
+  {
+    "id": "card_008",
+    "page": 9,
+    "deck": "Classic Picture Test",
+    "category": "Nephrology & Urology",
+    "title": "Percutaneous Renal Biopsy in a 12-Year-Old",
+    "vignette": "Concerning the procedure being performed on this 12-year-old boy (percutaneous ultrasound-guided renal biopsy) with a background history of body swelling:",
+    "statements": [
+      {
+        "id": "41",
+        "text": "It is indicated in children with steroid sensitive nephrotic syndrome",
+        "answer": false,
+        "explanation": "False. Children with classic Steroid-Sensitive Nephrotic Syndrome (SSNS) do not require a renal biopsy; over 90% have Minimal Change Disease and respond to empiric steroid therapy. Biopsy is reserved for steroid resistance (SRNS), atypical age (<1 year or >12 years), macroscopic hematuria, persistent hypertension, renal failure, or low C3."
+      },
+      {
+        "id": "42",
+        "text": "INR and platelet count are required prior to the procedure",
+        "answer": true,
+        "explanation": "True. The kidney is a highly vascular organ. Normal coagulation parameters (INR <1.2, aPTT, and platelet count >100,000/uL) and cessation of antiplatelet agents are absolute pre-biopsy safety requisites to prevent catastrophic perirenal hematoma."
+      },
+      {
+        "id": "43",
+        "text": "Trucut biopsy needle is used",
+        "answer": true,
+        "explanation": "True. An automated core needle or modified Tru-cut needle (usually 16G or 18G) is standard for obtaining renal cortical core samples containing adequate glomeruli for light microscopy, immunofluorescence, and electron microscopy."
+      },
+      {
+        "id": "44",
+        "text": "The patient is to remain NPO for 24 hours thereafter",
+        "answer": false,
+        "explanation": "False. The patient requires strict supine bed rest for 12-24 hours with frequent vital sign monitoring, but oral fluids and a light meal can be resumed 2-4 hours post-procedure once sedation wears off."
+      },
+      {
+        "id": "45",
+        "text": "Keeping a urine rack is mandatory after the procedure",
+        "answer": true,
+        "explanation": "True. Serial urine specimens are placed in sequential tubes/jars on a bedside rack to visually monitor the development and clearance of post-biopsy microscopic and macroscopic hematuria."
+      }
+    ],
+    "clinical_summary": "Percutaneous renal biopsy provides definitive histological diagnosis in steroid-resistant nephrotic syndrome, acute nephritic syndrome with rapid deterioration, and unexplained renal failure. Post-procedure care mandates strict bed rest, serial hematocrit, urine rack monitoring, and hemodynamic surveillance for bleeding.",
+    "original_notes": "Marked: Steroid sensitive indication = False; Coagulation screen = True; Trucut = True; Urine rack = True."
+  },
+  {
+    "id": "card_009",
+    "page": 10,
+    "deck": "Classic Picture Test",
+    "category": "Pediatric Surgery & Congenital Anomalies",
+    "title": "Anterior Abdominal Wall Defect: Omphalocele vs Gastroschisis",
+    "vignette": "With regards to the clinical condition shown in this newborn presenting with an anterior abdominal wall defect:",
+    "statements": [
+      {
+        "id": "46",
+        "text": "Diagnosis can be made prenatally",
+        "answer": true,
+        "explanation": "True. Anterior abdominal wall defects (omphalocele and gastroschisis) are routinely detected on routine second-trimester antenatal ultrasound (18-20 weeks) and maternal serum alpha-fetoprotein (MSAFP) screening."
+      },
+      {
+        "id": "47",
+        "text": "It is associated with preterm birth",
+        "answer": true,
+        "explanation": "True. Both gastroschisis and omphalocele have high rates of spontaneous and medically indicated preterm delivery (average gestational age 35-37 weeks)."
+      },
+      {
+        "id": "48",
+        "text": "Abdominal ultrasonography is mandatory for its evaluation",
+        "answer": true,
+        "explanation": "True. Ultrasonography is vital to evaluate liver herniation, associated internal structural anomalies, mesenteric blood flow, and renal anatomy."
+      },
+      {
+        "id": "49",
+        "text": "Intestinal atresia is an unusual finding",
+        "answer": false,
+        "explanation": "False. Intestinal atresia (especially jejunal and ileal atresia) occurs in 10-15% of gastroschisis cases due to midgut volvulus, in utero bowel ischemia, or constriction at the tight abdominal wall defect."
+      },
+      {
+        "id": "50",
+        "text": "Prognosis is poor",
+        "answer": false,
+        "explanation": "False. With modern neonatal intensive care, total parenteral nutrition (TPN), staged silo reduction, and pediatric surgery, overall neonatal survival exceeds 90-95%."
+      }
+    ],
+    "clinical_summary": "Distinguishing Omphalocele from Gastroschisis: Omphalocele is midline, cord inserts onto the sac, covered by amnion/peritoneum, strongly associated with chromosomal/cardiac defects and Beckwith-Wiedemann syndrome. Gastroschisis is lateral (usually right) of intact umbilical cord, has no sac, exposed bowel is thickened/edematous, and associated anomalies are rare (except intestinal atresia).",
+    "original_notes": "Annotated: Prenatal diagnosis T; Preterm birth T; Intestinal atresia is NOT unusual (F); Prognosis is good (>90%)."
+  },
+  {
+    "id": "card_010",
+    "page": 19,
+    "deck": "CMDA Picture Test",
+    "category": "Neurology & Development",
+    "title": "Lumbosacral Swelling: Myelomeningocele",
+    "vignette": "Concerning the newborn shown with a cystic midline lumbosacral mass containing neural placode:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "Most common paediatric soft tissue tumour",
+        "answer": false,
+        "explanation": "False. A myelomeningocele is a neural tube defect (congenital dysraphism), not a soft tissue neoplasm. The most common soft tissue sarcoma in children is rhabdomyosarcoma, and the commonest benign tumor is infantile hemangioma."
+      },
+      {
+        "id": "B",
+        "text": "Frequently associated with Arnold-Chiari malformation type II",
+        "answer": true,
+        "explanation": "True. Over 90% of infants with open myelomeningocele have an associated Chiari type II malformation (downward displacement of cerebellar vermis, tonsils, and medulla through the foramen magnum)."
+      },
+      {
+        "id": "C",
+        "text": "Hydrocephalus is a frequent complication",
+        "answer": true,
+        "explanation": "True. Due to the Chiari II malformation and aqueductal stenosis, 80-90% of infants develop hydrocephalus, frequently requiring ventriculoperitoneal (VP) shunt placement or endoscopic third ventriculostomy (ETV)."
+      },
+      {
+        "id": "D",
+        "text": "Immediate pre-operative care includes covering with sterile saline-soaked gauze",
+        "answer": true,
+        "explanation": "True. To prevent drying, neural placode necrosis, and ascending bacterial meningitis, the defect must be promptly covered with sterile warm saline-soaked non-adherent dressings and enclosed in a sterile plastic barrier."
+      },
+      {
+        "id": "E",
+        "text": "Folic acid supplementation prior to conception reduces recurrence risk",
+        "answer": true,
+        "explanation": "True. Periconceptional folic acid (400 mcg daily for low risk; 4-5 mg daily for mothers with a previous affected child) initiated 1-3 months before conception reduces neural tube defects by up to 70%."
+      }
+    ],
+    "clinical_summary": "Myelomeningocele is an open neural tube defect characterized by herniation of meninges and spinal cord through vertebral arch defects. Key associations: neurogenic bladder/bowel, lower extremity motor/sensory deficits, Chiari II malformation, and hydrocephalus. Immediate repair is indicated within 24-48 hours.",
+    "original_notes": "CMDA Question 1: Chiari II association, hydrocephalus, sterile dressing, folic acid prevention."
+  },
+  {
+    "id": "card_011",
+    "page": 21,
+    "deck": "CMDA Picture Test",
+    "category": "Nutrition & Endocrinology",
+    "title": "Hyperthyroidism / Graves' Disease in a 7-Year-Old",
+    "vignette": "A 7-year-old boy is referred to the endocrinology clinic with progressive weight loss despite increased appetite, heat intolerance, tremor, and prominent eyes:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "Condition is ten times higher in girls than in boys",
+        "answer": true,
+        "explanation": "True. Autoimmune thyroid disorders demonstrate a strong female preponderance, with Graves' disease occurring 5 to 10 times more frequently in females than males."
+      },
+      {
+        "id": "B",
+        "text": "Emotional lability is often an early symptom",
+        "answer": true,
+        "explanation": "True. Behavioral changes, emotional lability, poor school performance, restlessness, and hyperactivity often precede physical signs in pediatric thyrotoxicosis."
+      },
+      {
+        "id": "C",
+        "text": "Common cardiac manifestation is atrial fibrillation",
+        "answer": false,
+        "explanation": "False. While atrial fibrillation is a recognized complication of hyperthyroidism in elderly adults, it is rare in children. In pediatric Graves' disease, the commonest cardiac manifestation is sinus tachycardia and widened pulse pressure."
+      },
+      {
+        "id": "D",
+        "text": "TSH receptor antibodies (TRAb) are classically present",
+        "answer": true,
+        "explanation": "True. Thyroid-stimulating immunoglobulins (TSI / TRAb) bind to and stimulate the TSH receptor, causing autonomous thyroid hormone synthesis and diffuse goiter in Graves' disease."
+      },
+      {
+        "id": "E",
+        "text": "Methimazole / Carbimazole is preferred over propylthiouracil in children",
+        "answer": true,
+        "explanation": "True. Methimazole/Carbimazole is the drug of choice in children. Propylthiouracil (PTU) is contraindicated in pediatric patients due to the black box warning for severe, unpredictable, fulminant hepatic necrosis."
+      }
+    ],
+    "clinical_summary": "Graves' disease is the primary cause of pediatric thyrotoxicosis. Cardinal features: diffuse goiter, tachycardia, fine resting tremor, exophthalmos, accelerated linear growth with advanced bone age. Laboratory profile: Suppressed TSH (<0.01 mIU/L), elevated Free T4 and Free T3, positive TRAb. First-line therapy: Methimazole and beta-blockers (propranolol).",
+    "original_notes": "CMDA Q3: Female preponderance (T), emotional lability (T), AF rare in kids (F), Methimazole preferred (T)."
+  },
+  {
+    "id": "card_012",
+    "page": 24,
+    "deck": "CMDA Picture Test",
+    "category": "Pediatric Surgery & Congenital Anomalies",
+    "title": "Down Syndrome (Trisomy 21) & Congenital Heart Disease",
+    "vignette": "A 6-month-old girl presents at the paediatric outpatient department with dysmorphic facial features, poor feeding, and hypotonia:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "Ventricular septal defect is a possible cardiac lesion",
+        "answer": true,
+        "explanation": "True. Congenital heart defects occur in 40-50% of infants with Down syndrome. Complete Atrioventricular Septal Defect (AVSD / endocardial cushion defect) is most characteristic (~45%), followed closely by VSD (~35%) and ASD."
+      },
+      {
+        "id": "B",
+        "text": "Mosaicism is the commonest mode of inheritance",
+        "answer": false,
+        "explanation": "False. Pure non-disjunction during maternal meiosis accounts for ~95% of Trisomy 21. Robertsonian translocation accounts for ~4%, and mosaicism accounts for only ~1%."
+      },
+      {
+        "id": "C",
+        "text": "Sandal gap may be seen",
+        "answer": true,
+        "explanation": "True. A widened gap between the first and second toes ('sandal gap deformity') is a classical physical sign of Trisomy 21."
+      },
+      {
+        "id": "D",
+        "text": "Risk of developing leukaemia is higher",
+        "answer": true,
+        "explanation": "True. Children with Down syndrome have a 10 to 20-fold increased risk of developing Acute Lymphoblastic Leukemia (ALL) and Acute Myeloid Leukemia (especially Acute Megakaryoblastic Leukemia - AML M7), as well as Transient Abnormal Myelopoiesis (TAM) in neonates."
+      },
+      {
+        "id": "E",
+        "text": "Thyroid function test is not indicated",
+        "answer": false,
+        "explanation": "False. Congenital and acquired hypothyroidism occur in up to 15-30% of children with Down syndrome. Routine neonatal screening and annual thyroid function testing (TSH and FT4) are mandatory guidelines."
+      }
+    ],
+    "clinical_summary": "Down Syndrome (Trisomy 21) hallmarks: hypotonia, flat facial profile, upslanting palpebral fissures, epicanthic folds, Brushfield spots, single transverse palmar crease (simian crease), sandal gap. Screening checklist: echocardiogram in all neonates, thyroid function, hearing screen, celiac screen, and cervical spine X-ray for atlantoaxial instability.",
+    "original_notes": "Annotated: Non-disjunction is commonest (F for mosaicism); higher leukemia risk (T); TFT is indicated (F for not indicated)."
+  },
+  {
+    "id": "card_013",
+    "page": 26,
+    "deck": "CMDA Picture Test",
+    "category": "Cardiology & Congenital Heart Disease",
+    "title": "Digital Clubbing (Hippocratic Fingers)",
+    "vignette": "Concerning the clinical photograph of severe digital clubbing in a pediatric patient:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "Lovibond angle is >180 degrees",
+        "answer": true,
+        "explanation": "True. The normal Lovibond angle (the angle between the nail bed and the proximal nail fold) is <160\u00b0. In digital clubbing, proliferation of subungual connective tissue obliterates this angle and increases it to >180\u00b0."
+      },
+      {
+        "id": "B",
+        "text": "Overproduction of PGE2 has been postulated as a cause",
+        "answer": true,
+        "explanation": "True. Prostaglandin E2 (PGE2) overproduction, along with platelet-derived growth factor (PDGF) and VEGF released by megakaryocytes bypassing lung capillary beds, drives fibrovascular proliferation in clubbing."
+      },
+      {
+        "id": "C",
+        "text": "It could be familial in blacks",
+        "answer": true,
+        "explanation": "True. Primary/idiopathic hypertrophic osteoarthropathy (Touraine-Solente-Gol\u00e9 syndrome) can be inherited in an autosomal dominant or recessive pattern with ethnic variations."
+      },
+      {
+        "id": "D",
+        "text": "Hyperthyroidism may be a cause",
+        "answer": true,
+        "explanation": "True. Thyroid acropachy is a recognized manifestation of autoimmune thyroid disease (Graves'), presenting with clubbing and periosteal new bone formation."
+      },
+      {
+        "id": "E",
+        "text": "Vasodilatation and overproduction of growth factors are associated with it",
+        "answer": true,
+        "explanation": "True. Megakaryocyte entrapment in distal nail beds releases PDGF and VEGF, promoting local capillary vasodilatation, edema, and collagen deposition."
+      }
+    ],
+    "clinical_summary": "Digital clubbing features loss of Schamroth's sign (obliteration of diamond-shaped window), increased fluctuation of nail bed, and Lovibond angle >180\u00b0. Major pediatric causes: Cyanotic Congenital Heart Disease (Tetralogy of Fallot, Eisenmenger), Chronic Suppurative Lung Disease (Cystic Fibrosis, Bronchiectasis, Empyema), Infective Endocarditis, and GI disorders (Cirrhosis, Celiac, IBD).",
+    "original_notes": "CMDA Q8: Lovibond angle >180 (T), PGE2 postulated (T), familial (T), thyroid (T), growth factors (T)."
+  },
+  {
+    "id": "card_014",
+    "page": 29,
+    "deck": "CMDA Picture Test",
+    "category": "Emergency & Instruments",
+    "title": "Intraosseous (IO) Infusion Needle",
+    "vignette": "Concerning the emergency vascular access device (Intraosseous needle) shown:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "Needle can be in place for 48 hours",
+        "answer": false,
+        "explanation": "False. Intraosseous access is strictly a temporary emergency rescue measure. Current guidelines mandate removal as soon as conventional intravenous or central access is established, typically within 24 hours (maximum 48-72 hours only in extreme disaster triage), to prevent osteomyelitis."
+      },
+      {
+        "id": "B",
+        "text": "Osteogenesis imperfecta is a contraindication",
+        "answer": true,
+        "explanation": "True. Bone diseases with extreme fragility, such as osteogenesis imperfecta or severe osteopetrosis, are absolute contraindications due to the high risk of comminuted bone fracture and extravasation."
+      },
+      {
+        "id": "C",
+        "text": "The spongy layer (marrow cavity) is the target zone",
+        "answer": true,
+        "explanation": "True. The needle traverses the hard cortical bone into the rich medullary cavity (cancellous spongy bone), where non-collapsible venous sinusoids drain directly into the systemic circulation."
+      },
+      {
+        "id": "D",
+        "text": "18 G needles are best used in older children",
+        "answer": false,
+        "explanation": "False. Larger bore needles (e.g., 15G or 16G) are required in older children and adolescents to achieve rapid fluid resuscitation. An 18G needle is smaller and used only in infants and neonates."
+      },
+      {
+        "id": "E",
+        "text": "The epiphyseal plate is the preferred site for insertion",
+        "answer": false,
+        "explanation": "False. Insertion directly into the growth plate (physis/epiphyseal plate) causes permanent growth arrest and limb length discrepancy. The preferred site is the anteromedial surface of the proximal tibia, 1-2 cm below the tibial tuberosity."
+      }
+    ],
+    "clinical_summary": "Intraosseous (IO) vascular access is indicated when peripheral IV access cannot be established within 90 seconds (or 3 attempts) in critically ill/arrested children. Any medication, blood product, or crystalloid that can be given IV can be given IO at equivalent doses. Contraindications: fracture in the target bone, previous attempt in same bone, overlying infection, and severe osteogenesis imperfecta.",
+    "original_notes": "Note: Proximal tibia site; Avoid growth plate (F for epiphyseal plate); 15-16G in older kids."
+  },
+  {
+    "id": "card_015",
+    "page": 32,
+    "deck": "CMDA Picture Test",
+    "category": "Nutrition & Endocrinology",
+    "title": "Mid-Upper Arm Circumference (MUAC) Shakir Strip",
+    "vignette": "Concerning the anthropometric assessment tool shown (MUAC / Shakir strip):",
+    "statements": [
+      {
+        "id": "A",
+        "text": "The observed value is recorded in 'mm'",
+        "answer": false,
+        "explanation": "False. Standard WHO Mid-Upper Arm Circumference measurements are calibrated and recorded in centimeters (cm) to the nearest 0.1 cm (or color-coded zones), not millimeters."
+      },
+      {
+        "id": "B",
+        "text": "Acromioclavicular joint is not a landmark used",
+        "answer": false,
+        "explanation": "False. The midpoint of the upper arm is precisely determined by measuring the distance between the tip of the acromion process (acromioclavicular region) and the tip of the olecranon process with the elbow flexed at 90\u00b0."
+      },
+      {
+        "id": "C",
+        "text": "Not commonly used in infants <6 months",
+        "answer": true,
+        "explanation": "True. Standard WHO MUAC cutoff values are validated for children aged 6 to 59 months. In infants under 6 months, MUAC cutoffs are less established, and weight-for-length z-scores or specialized neonatal tapes are used."
+      },
+      {
+        "id": "D",
+        "text": "This child (MUAC in Red Zone <11.5 cm) is at risk of overwhelming sepsis",
+        "answer": true,
+        "explanation": "True. Severe Acute Malnutrition (SAM, red zone <11.5 cm) causes profound secondary immunodeficiency ('nutritionally acquired immune deficiency syndrome'), predisposing to atypical, fatal bacterial sepsis without fever."
+      },
+      {
+        "id": "E",
+        "text": "A friendly environment will accelerate child's recovery",
+        "answer": true,
+        "explanation": "True. Sensory stimulation and play (WHO SAM management step 10: 'provide loving care and emotional stimulation') are proven to reverse severe emotional apathy, enhance neurodevelopment, and accelerate recovery."
+      }
+    ],
+    "clinical_summary": "WHO MUAC Cutoffs (6-59 months): Red (<11.5 cm) = Severe Acute Malnutrition (high mortality risk); Yellow (11.5 - 12.4 cm) = Moderate Acute Malnutrition; Green (>=12.5 cm) = Normal. Management of SAM follows 10 WHO steps: treat hypoglycemia, hypothermia, dehydration (ReSoMal), electrolytes, infections, micronutrients, cautious feeding (F-75), catch-up growth (F-100), sensory stimulation, and discharge preparation.",
+    "original_notes": "CMDA Q14: Shakir tape, Midpoint between acromion and olecranon, SAM red zone <11.5 cm."
+  },
+  {
+    "id": "card_016",
+    "page": 33,
+    "deck": "CMDA Picture Test",
+    "category": "Infectious Diseases & Tropical Medicine",
+    "title": "Blood Film in Severe Cerebral Malaria",
+    "vignette": "Blood film of a 3-year-old child presenting with high grade fever, recurrent generalized convulsions, and deep coma:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "Phenylalanine has been implicated in the aetiology",
+        "answer": false,
+        "explanation": "False. Phenylalanine metabolism relates to phenylketonuria (PKU). Malaria is caused by protozoan parasites of the genus Plasmodium (most severely P. falciparum)."
+      },
+      {
+        "id": "B",
+        "text": "There may be retinal whitening and vessel changes on fundoscopy",
+        "answer": true,
+        "explanation": "True. Malarial retinopathy (retinal whitening, vessel discoloration, and flame-shaped retinal hemorrhages) has >90% specificity for confirming true cerebral sequestration of parasitized RBCs."
+      },
+      {
+        "id": "C",
+        "text": "Plasmodium vivax is a possible aetiological agent",
+        "answer": false,
+        "explanation": "False. Plasmodium falciparum is the overwhelming cause of cerebral malaria in sub-Saharan Africa. Furthermore, Duffy-antigen negative West African populations are genetically resistant to P. vivax invasion."
+      },
+      {
+        "id": "D",
+        "text": "Prognosis is uniformly good",
+        "answer": false,
+        "explanation": "False. Cerebral malaria carries a case fatality rate of 15-20% even with optimal intensive care, and 10-25% of survivors suffer permanent neurological deficits (hemiplegia, cortical blindness, epilepsy)."
+      },
+      {
+        "id": "E",
+        "text": "Cortical blindness can occur as a neurological sequela",
+        "answer": true,
+        "explanation": "True. Cortical blindness due to ischemic microvascular sequestration in the occipital visual cortex is a well-recognized neurodevelopmental sequela in cerebral malaria survivors."
+      }
+    ],
+    "clinical_summary": "Cerebral malaria is defined as unarousable coma (Blantyre coma score <=2 in young children) lasting >1 hour after a seizure, with Plasmodium falciparum parasitemia and no other identifiable cause of encephalopathy. First-line treatment: Intravenous Artesunate (2.4 mg/kg at 0, 12, 24 hours then daily) + broad spectrum antibiotics until LP excludes meningitis.",
+    "original_notes": "Slide: Severe Malaria blood film. Falciparum rings. Retinal changes (T), Cortical blindness (T)."
+  },
+  {
+    "id": "card_017",
+    "page": 38,
+    "deck": "CMDA Picture Test",
+    "category": "Pediatric Surgery & Congenital Anomalies",
+    "title": "Duodenal Atresia: Double Bubble Sign",
+    "vignette": "Concerning this plain abdominal radiograph of a newborn showing the classic 'double bubble' sign:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "Common in children with Down syndrome",
+        "answer": true,
+        "explanation": "True. Approximately 30% of infants with duodenal atresia have Trisomy 21 (Down syndrome), and conversely, 3-5% of Down syndrome infants have duodenal atresia."
+      },
+      {
+        "id": "B",
+        "text": "Presents with bilious vomiting",
+        "answer": true,
+        "explanation": "True. In >80% of cases, the obstruction is distal to the ampulla of Vater (post-ampullary), resulting in non-distended epigastric abdomen with prompt bilious (green) emesis from the first day of life."
+      },
+      {
+        "id": "C",
+        "text": "Associated with maternal polyhydramnios",
+        "answer": true,
+        "explanation": "True. Because the high intestinal obstruction prevents the fetus from swallowing and absorbing amniotic fluid in the distal bowel, maternal polyhydramnios is present in over 50% of pregnancies."
+      },
+      {
+        "id": "D",
+        "text": "Up to 30% of patients have associated life threatening congenital anomalies",
+        "answer": true,
+        "explanation": "True. High rates of associated anomalies exist: cardiac anomalies (VSD, AVSD), VACTERL association, malrotation, and anorectal malformations occur in 30-50%."
+      },
+      {
+        "id": "E",
+        "text": "Mainstay of definitive treatment is surgery",
+        "answer": true,
+        "explanation": "True. Initial decompression via orogastric tube and fluid resuscitation is followed by definitive surgical bypass (duodenoduodenostomy or Kimura diamond-shaped anastomosis)."
+      }
+    ],
+    "clinical_summary": "Duodenal Atresia is caused by failure of recanalization of the duodenal lumen at 8-10 weeks of gestation. Pathognomonic abdominal X-ray demonstrates the 'double bubble' sign (gas distending the stomach and proximal duodenum with complete absence of distal bowel gas). Association with Down syndrome is high-yield.",
+    "original_notes": "CMDA Q20: Double bubble sign -> Duodenal atresia. Surgery is mainstay."
+  },
+  {
+    "id": "card_018",
+    "page": 41,
+    "deck": "Neonatal & Pathology",
+    "category": "Neonatology & Perinatal",
+    "title": "Neonatal Scalp Swelling: Cephalohematoma",
+    "vignette": "Concerning the neonatal scalp swelling shown on examination of a newborn after prolonged labor:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "May be caused by Ventouse extraction during delivery",
+        "answer": true,
+        "explanation": "True. Instrumental delivery (vacuum extraction / Ventouse or forceps) creates traction and shearing forces on periosteal blood vessels, dramatically increasing cephalohematoma risk."
+      },
+      {
+        "id": "B",
+        "text": "It may cause hyperbilirubinemia",
+        "answer": true,
+        "explanation": "True. As the trapped subperiosteal hematoma breaks down over days to weeks, massive erythrocyte degradation generates excess unconjugated bilirubin, causing exaggerated neonatal jaundice."
+      },
+      {
+        "id": "C",
+        "text": "The neonate may require blood transfusion",
+        "answer": true,
+        "explanation": "True. In extensive or bilateral cephalohematomas (or when compounded by subgaleal bleeding), acute blood sequestration into the scalp space can lead to clinically significant anemia requiring PRBC transfusion."
+      },
+      {
+        "id": "D",
+        "text": "Swelling is strictly limited by suture lines",
+        "answer": true,
+        "explanation": "True. Cephalohematoma is subperiosteal (between periosteum and skull bone). Because the periosteum is firmly anchored at the cranial suture lines, the swelling cannot cross sutures (differentiating it from caput succedaneum and subgaleal hemorrhage)."
+      },
+      {
+        "id": "E",
+        "text": "Intracranial hemorrhage is an uncommon association",
+        "answer": true,
+        "explanation": "True. The vast majority of cephalohematomas are uncomplicated extracranial collections, with underlying linear skull fractures seen in 5-10% and intracranial hemorrhage being rare unless severe birth trauma occurred."
+      }
+    ],
+    "clinical_summary": "Differential Diagnosis of Neonatal Scalp Swellings: 1) Caput Succedaneum: subcutaneous serosanguinous fluid, crosses suture lines, present at birth, resolves in 2-3 days; 2) Cephalohematoma: subperiosteal blood, NEVER crosses suture lines, appears hours after birth, resolves in weeks, may calcify; 3) Subgaleal Hemorrhage: blood between epicranial aponeurosis and periosteum, crosses sutures, progressive massive swelling, causes hemorrhagic shock and coagulopathy.",
+    "original_notes": "Page 41: Cephalohematoma. Limited by suture lines (T), hyperbilirubinemia (T), Ventouse (T)."
+  },
+  {
+    "id": "card_019",
+    "page": 44,
+    "deck": "Neonatal & Pathology",
+    "category": "Neonatology & Perinatal",
+    "title": "Necrotizing Enterocolitis (NEC)",
+    "vignette": "Plain abdominal radiograph of a 14-day-old preterm baby presenting with abdominal distension, feeding intolerance, and bloody stools:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "Prematurity is the most important risk factor",
+        "answer": true,
+        "explanation": "True. Over 90% of NEC cases occur in premature infants (<32 weeks gestation or <1500 g birth weight) due to immature intestinal mucosal barrier, poor peristalsis, and naive mucosal immunity."
+      },
+      {
+        "id": "B",
+        "text": "Pneumatosis intestinalis is pathognomonic on X-ray",
+        "answer": true,
+        "explanation": "True. Gas produced by invading bacteria dissecting within the submucosa or subserosa of the bowel wall ('train-track' or cystic lucencies) is pathognomonic for Bell's stage II NEC."
+      },
+      {
+        "id": "C",
+        "text": "Portal venous gas indicates severe disease",
+        "answer": true,
+        "explanation": "True. Branching lucencies extending toward the periphery of the liver indicate intraluminal gas entry into mesenteric venules and portal circulation, signifying advanced ischemic necrosis (Bell stage IIB/III)."
+      },
+      {
+        "id": "D",
+        "text": "Breast milk feeding increases the incidence",
+        "answer": false,
+        "explanation": "False. Maternal breast milk and donor human milk provide protective secretory IgA, lactoferrin, and oligosaccharides, reducing the incidence of NEC by 60-80% compared to formula feeding."
+      },
+      {
+        "id": "E",
+        "text": "Pneumoperitoneum is an absolute indication for surgical intervention",
+        "answer": true,
+        "explanation": "True. Free air under the diaphragm on erect or left lateral decubitus radiograph ('football sign' or Rigler's sign) indicates bowel perforation and requires emergent laparotomy or peritoneal drain insertion."
+      }
+    ],
+    "clinical_summary": "Necrotizing Enterocolitis (NEC) is the leading gastrointestinal emergency in preterms. Triad: abdominal distension, bilious emesis, hematochezia. Medical therapy: NPO, nasogastric decompression, broad-spectrum IV antibiotics (ampicillin + gentamicin + metronidazole), parenteral nutrition. Surgical indication: perforation (pneumoperitoneum).",
+    "original_notes": "Page 44: NEC radiograph. Pneumatosis intestinalis, prematurity, breast milk protective."
+  },
+  {
+    "id": "card_020",
+    "page": 50,
+    "deck": "Neonatal & Pathology",
+    "category": "Infectious Diseases & Tropical Medicine",
+    "title": "Tetanus & Severe Muscle Spasms (Opisthotonus)",
+    "vignette": "Concerning this clinical picture of a child displaying severe hypertonicity and hyperextension:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "Opisthotonus is shown",
+        "answer": true,
+        "explanation": "True. Severe backward arching of the head, neck, and spinal column caused by violent sustained contraction of the paraspinal muscles is termed opisthotonus."
+      },
+      {
+        "id": "B",
+        "text": "Decorticate posturing is shown",
+        "answer": false,
+        "explanation": "False. Decorticate posturing involves flexion of upper extremities (arms flexed to chest) and extension of lower extremities due to cerebral hemisphere or corticospinal lesions. This child shows generalized tetanus spasm with opisthotonic hyperextension."
+      },
+      {
+        "id": "C",
+        "text": "Severe malaria is a recognized cause of seizures and posturing",
+        "answer": true,
+        "explanation": "True. Cerebral malaria with raised intracranial pressure and brain herniation frequently produces severe decerebrate/decorticate posturing and opisthotonus in African children."
+      },
+      {
+        "id": "D",
+        "text": "May be seen in neonates with unconjugated hyperbilirubinemia",
+        "answer": true,
+        "explanation": "True. Acute bilirubin encephalopathy (advanced kernicterus) causes bilirubin deposition in the basal ganglia, subthalamic nuclei, and brainstem, classically presenting with retrocollis and opisthotonus."
+      },
+      {
+        "id": "E",
+        "text": "Mannitol may be required in managing underlying cause",
+        "answer": true,
+        "explanation": "True. When posturing is caused by raised intracranial pressure (cerebral edema in cerebral malaria, meningitis, or intracranial trauma), osmotic diuresis with IV Mannitol or hypertonic saline is indicated."
+      }
+    ],
+    "clinical_summary": "Opisthotonus is severe tetanic hyperextension seen in: 1) Tetanus (Clostridium tetani tetanospasmin blocking GABA/glycine inhibitory interneurons), 2) Kernicterus (bilirubin neurotoxicity), 3) Meningitis / Meningismus, 4) Cerebral malaria with brainstem herniation. Tetanus triad: Trismus (lockjaw), Risus sardonicus (sneering grin), and reflex spasms triggered by minimal auditory/tactile stimuli.",
+    "original_notes": "Page 50: Opisthotonus T; Decorticate F; Kernicterus T; Severe malaria T."
+  },
+  {
+    "id": "card_021",
+    "page": 51,
+    "deck": "Neonatal & Pathology",
+    "category": "Neurology & Development",
+    "title": "Cerebral Palsy: Spastic Diplegia",
+    "vignette": "Consider this 3-year-old child presenting with delayed motor milestones and toe-walking:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "Inability to walk is a common feature in severe forms",
+        "answer": true,
+        "explanation": "True. Gross Motor Function Classification System (GMFCS) Level IV and V cerebral palsy patients are unable to walk independently and require wheelchair assistance."
+      },
+      {
+        "id": "B",
+        "text": "Gait is typically hemiplegic",
+        "answer": false,
+        "explanation": "False. In spastic diplegia (the classic subtype following preterm periventricular leukomalacia), the gait is typically a scissoring gait (hyperadduction and internal rotation of hips with equinus toe-walking), not asymmetric hemiplegia."
+      },
+      {
+        "id": "C",
+        "text": "Prematurity is a common association",
+        "answer": true,
+        "explanation": "True. Prematurity is the strongest epidemiological risk factor for spastic diplegia due to vulnerability of the periventricular arterial watershed zones leading to Periventricular Leukomalacia (PVL)."
+      },
+      {
+        "id": "D",
+        "text": "Seizures are seen in up to 25% of cases",
+        "answer": true,
+        "explanation": "True. Epilepsy occurs in 25-45% of children with cerebral palsy (more frequent in spastic quadriplegia and hemiplegia than in diplegia)."
+      },
+      {
+        "id": "E",
+        "text": "Involvement of the upper limb is minimal compared to lower limb",
+        "answer": true,
+        "explanation": "True. By definition, spastic diplegia predominantly affects both lower extremities symmetrically, with relatively mild or spared upper limb function."
+      }
+    ],
+    "clinical_summary": "Cerebral palsy is a group of non-progressive, permanent neurodevelopmental disorders of movement and posture caused by disturbances in the developing fetal/infant brain. Subtypes: Spastic (70-80%: diplegic, hemiplegic, quadriplegic), Dyskinetic (choreoathetoid, often post-kernicterus), Ataxic, and Mixed. Early signs: persistence of primitive reflexes, fisting, scissoring, handedness before 12 months.",
+    "original_notes": "Page 51: Spastic diplegia. Scissoring gait (not hemiplegic); Prematurity association (T); Lower > upper (T)."
+  },
+  {
+    "id": "card_022",
+    "page": 134,
+    "deck": "Paediatric Slide Quiz",
+    "category": "Nutrition & Endocrinology",
+    "title": "Severe Acute Malnutrition: Kwashiorkor",
+    "vignette": "A 15-month-old boy is brought to the hospital with generalised edema, apathy, sparse reddish hair, and skin lesions following weaning onto maize porridge:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "The primary clinical diagnosis is Kwashiorkor",
+        "answer": true,
+        "explanation": "True. Bilateral pitting pedal edema in the presence of severe wasting, hair changes ('flag sign'), 'flaky paint' dermatosis, and severe apathy is diagnostic of Kwashiorkor (protein-deficient malnutrition)."
+      },
+      {
+        "id": "B",
+        "text": "Hypoalbuminemia is a fundamental laboratory finding",
+        "answer": true,
+        "explanation": "True. Severe reduction in hepatic protein synthesis leads to marked hypoalbuminemia (serum albumin <20-25 g/L), contributing to peripheral edema, ascites, and loss of intravascular volume."
+      },
+      {
+        "id": "C",
+        "text": "Intravenous high-protein diet should be started immediately on admission",
+        "answer": false,
+        "explanation": "False. High-protein diets and IV hypertonic feeds in the acute phase trigger fatal refeeding syndrome and hepatic failure. The initial stabilization phase uses WHO F-75 formula (low in protein: 0.9 g/100 mL, low sodium) to stabilize electrolyte balances."
+      },
+      {
+        "id": "D",
+        "text": "Routine empirical broad-spectrum antibiotic therapy is required",
+        "answer": true,
+        "explanation": "True. Because children with SAM lack classical inflammatory signs (fever and leukocytosis are often absent even during bacteremia), WHO guidelines mandate immediate empiric oral amoxicillin or IV ampicillin/gentamicin."
+      },
+      {
+        "id": "E",
+        "text": "Iron supplementation must be given on day one of admission",
+        "answer": false,
+        "explanation": "False. Free iron promotes rapid bacterial multiplication and generates lethal reactive oxygen radicals in children with low transferrin levels. Iron supplementation is strictly withheld until Phase 2 (rehabilitation phase, after appetite returns and edema resolves)."
+      }
+    ],
+    "clinical_summary": "Kwashiorkor is characterized by: 1) Bilateral pedal edema, 2) Dermatosis ('flaky paint' / enamel peeling), 3) Hair changes (hypopigmentation, flag sign), 4) Moon facies, 5) Hepatomegaly from fatty liver infiltration, 6) Profound misery/apathy. Management follows 10 WHO steps: Start with F-75, withhold iron in acute phase, treat hypothermia and hypoglycemia.",
+    "original_notes": "Pages 134-135: Diagnosis is Kwashiorkor. No iron in acute phase. F-75 used first."
+  },
+  {
+    "id": "card_023",
+    "page": 136,
+    "deck": "Paediatric Slide Quiz",
+    "category": "Nutrition & Endocrinology",
+    "title": "Congenital Hypothyroidism: Floppy Infant",
+    "vignette": "A 2-month-old infant is brought in because of extreme floppiness, persistent jaundice beyond 2 weeks, umbilical hernia, constipation, and hoarse cry:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "Congenital hypothyroidism is the most likely diagnosis",
+        "answer": true,
+        "explanation": "True. The constellation of hypotonia ('floppy infant'), macroglossia, large fontanelles, umbilical hernia, prolonged unconjugated/mixed jaundice, hypothermia, constipation, and coarse cry is classic for untreated congenital hypothyroidism."
+      },
+      {
+        "id": "B",
+        "text": "Thyroid dysgenesis (agenesis/ectopy) is the commonest etiology",
+        "answer": true,
+        "explanation": "True. Abnormal development or migration of the thyroid gland (agenesis, hypoplasia, or ectopy like lingual thyroid) accounts for 85% of permanent primary congenital hypothyroidism."
+      },
+      {
+        "id": "C",
+        "text": "Elevated TSH with low Free T4 confirms primary disease",
+        "answer": true,
+        "explanation": "True. Loss of negative feedback from low FT4 causes marked elevation of serum TSH (>20-40 mIU/L), which serves as the diagnostic and newborn screening biomarker."
+      },
+      {
+        "id": "D",
+        "text": "Delaying treatment beyond 2-3 months causes irreversible neurocognitive deficit",
+        "answer": true,
+        "explanation": "True. Thyroid hormones are critical for brain myelination, dendritic arborization, and synaptogenesis during early infancy. Delayed replacement leads to irreversible severe intellectual disability (cretinism)."
+      },
+      {
+        "id": "E",
+        "text": "The treatment of choice is oral Levothyroxine at 10-15 mcg/kg/day",
+        "answer": true,
+        "explanation": "True. Immediate oral levothyroxine (L-T4) administered crushed in breast milk or water rapidly normalizes thyroid hormone levels within 1-2 weeks."
+      }
+    ],
+    "clinical_summary": "Congenital Hypothyroidism is the leading preventable cause of intellectual disability. Most infants are asymptomatic at birth due to maternal T4 transfer. Signs develop over weeks: prolonged jaundice, wide fontanelles, macroglossia, umbilical hernia, poor feeding, hypothermia, hypotonia, and dry skin. Newborn heel-prick TSH screening is universally recommended.",
+    "original_notes": "Pages 136-137: Answer: Congenital hypothyroidism. Macroglossia, umbilical hernia, delayed myelination."
+  },
+  {
+    "id": "card_024",
+    "page": 140,
+    "deck": "Paediatric Slide Quiz",
+    "category": "Pediatric Surgery & Congenital Anomalies",
+    "title": "Extrahepatic Biliary Atresia",
+    "vignette": "A 6-week-old full-term infant presents with progressive jaundice, pale acholic (clay-colored) stools, and dark amber urine:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "Conjugated (direct) bilirubin is characteristically elevated",
+        "answer": true,
+        "explanation": "True. Complete fibro-obliteration of the extrahepatic biliary tree impedes bile outflow into the duodenum, causing severe conjugated hyperbilirubinemia (direct bilirubin >20% of total and >1 mg/dL)."
+      },
+      {
+        "id": "B",
+        "text": "The triangular cord sign may be visualized on ultrasound",
+        "answer": true,
+        "explanation": "True. The 'triangular cord sign' (a triangular or band-like periportal echogenic fibrous thickening >4 mm anterior to the portal vein bifurcation) has >95% specificity for biliary atresia."
+      },
+      {
+        "id": "C",
+        "text": "Kasai portoenterostomy has highest success when performed before 60 days of life",
+        "answer": true,
+        "explanation": "True. Early restoration of bile flow via hepatoportoenterostomy (Kasai procedure) prior to 60 days of age achieves bile clearance in >80% of patients. Beyond 90 days, irreversible secondary biliary cirrhosis makes transplantation almost inevitable."
+      },
+      {
+        "id": "D",
+        "text": "Fat-soluble vitamins (A, D, E, K) supplementation is unnecessary",
+        "answer": false,
+        "explanation": "False. Absence of bile acids in the intestinal lumen prevents micelle formation and fat absorption, causing severe fat-soluble vitamin deficiencies (vitamins A, D, E, and K). High-dose oral or IM supplementation is vital to prevent rickets and coagulopathy."
+      },
+      {
+        "id": "E",
+        "text": "It is the commonest indication for pediatric liver transplantation",
+        "answer": true,
+        "explanation": "True. Biliary atresia accounts for approximately 40-50% of all pediatric liver transplants globally."
+      }
+    ],
+    "clinical_summary": "Biliary Atresia vs Neonatal Hepatitis: Biliary atresia is characterized by persistent conjugated jaundice (>14-21 days of life), pale stools, dark urine, hepatomegaly, absent/contracted gallbladder on fasting ultrasound, absent biliary excretion on HIDA scan, and intraoperative cholangiogram confirmation. Kasai portoenterostomy before 60-75 days is time-critical.",
+    "original_notes": "Pages 140-141: Biliary atresia. Kasai operation before 60 days. Fat-soluble vitamins needed."
+  },
+  {
+    "id": "card_025",
+    "page": 144,
+    "deck": "Paediatric Slide Quiz",
+    "category": "Neurology & Development",
+    "title": "Congenital Hydrocephalus: Setting Sun Sign",
+    "vignette": "A 4-month-old infant is examined with rapid head enlargement, tense bulging anterior fontanelle, and downward deviation of both eyes:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "The ocular sign shown is the 'Setting Sun' sign",
+        "answer": true,
+        "explanation": "True. Downward deviation of the globes with sclera visible above the iris (caused by pressure of dilated third ventricle on the midbrain tectum / Parinaud syndrome) is the classical setting sun sign."
+      },
+      {
+        "id": "B",
+        "text": "Macewen sign ('cracked pot' sound) may be elicited on skull percussion",
+        "answer": true,
+        "explanation": "True. Percussion over the junction of the frontal, parietal, and temporal bones produces a resonant 'cracked pot' sound in infants with separated cranial sutures and hydrocephalus."
+      },
+      {
+        "id": "C",
+        "text": "Transillumination of the skull will be abnormally positive in severe hydrocephalus",
+        "answer": true,
+        "explanation": "True. In extreme thinning of the cortical mantle (<5-10 mm) due to ventriculomegaly, high-intensity flashlight examination shows extensive luminous glow (>2-2.5 cm halo)."
+      },
+      {
+        "id": "D",
+        "text": "Aqueductal stenosis is a common congenital cause",
+        "answer": true,
+        "explanation": "True. Congenital narrowing, web, or gliosis of the cerebral aqueduct of Sylvius is the commonest cause of non-communicating (obstructive) hydrocephalus."
+      },
+      {
+        "id": "E",
+        "text": "Ventriculoperitoneal (VP) shunt is the definitive surgical diversion",
+        "answer": true,
+        "explanation": "True. VP shunt placement (diverting CSF from the lateral ventricles to the peritoneal cavity) or Endoscopic Third Ventriculostomy (ETV with choroid plexus cauterization) are the main surgical options."
+      }
+    ],
+    "clinical_summary": "Hydrocephalus in infants presents with: crossing head circumference centiles, bulging tense non-pulsatile fontanelle, split sutures, distended scalp veins, sunsetting eyes, hyperreflexia, and vomiting. Cranial ultrasound through the open anterior fontanelle is the initial non-invasive investigation of choice.",
+    "original_notes": "Pages 144-145: Hydrocephalus. Setting sun sign, Macewen sign, VP shunt."
+  },
+  {
+    "id": "card_026",
+    "page": 148,
+    "deck": "Paediatric Slide Quiz",
+    "category": "Oncology & Hematology",
+    "title": "Nephroblastoma (Wilms Tumor)",
+    "vignette": "A 3-year-old child presents with a large, smooth, painless right flank mass discovered during bathing. Urinalysis shows microscopic hematuria:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "The mass characteristically crosses the abdominal midline",
+        "answer": false,
+        "explanation": "False. Wilms tumor arises within the renal parenchyma and characteristically remains within the flank, rarely crossing the midline (unless extremely massive). Neuroblastoma, by contrast, arises from retroperitoneal sympathetic chains/adrenals and classically crosses the midline."
+      },
+      {
+        "id": "B",
+        "text": "Hypertension is a recognised clinical finding",
+        "answer": true,
+        "explanation": "True. Elevated blood pressure occurs in 25-50% of children with Wilms tumor due to renal ischemia caused by compression of the renal artery, activating the renin-angiotensin-aldosterone axis."
+      },
+      {
+        "id": "C",
+        "text": "Associated with WAGR syndrome and Beckwith-Wiedemann syndrome",
+        "answer": true,
+        "explanation": "True. Wilms tumor is linked to WT1/WT2 mutations on chromosome 11p: WAGR (Wilms, Aniridia, Genitourinary anomalies, Retardation), Denys-Drash, and Beckwith-Wiedemann (hemihypertrophy, macroglossia, omphalocele)."
+      },
+      {
+        "id": "D",
+        "text": "Vigorous palpation of the abdomen is encouraged to confirm limits",
+        "answer": false,
+        "explanation": "False. Palpation of a suspected Wilms tumor should be strictly minimized and performed very gently. Vigorous palpation can rupture the delicate fibrous tumor capsule, spilling malignant cells into the peritoneal cavity and upstaging the disease."
+      },
+      {
+        "id": "E",
+        "text": "Lungs are the most common site of distant metastasis",
+        "answer": true,
+        "explanation": "True. Hematogenous metastasis in Wilms tumor predominantly involves the lungs (>80% of metastatic cases), followed by the liver. A staging chest CT or radiograph is mandatory."
+      }
+    ],
+    "clinical_summary": "Wilms Tumor (Nephroblastoma) is the most common renal malignancy of childhood (peak age 2-4 years). Hallmark: painless, firm, smooth flank mass that does not cross the midline. Claw sign on CT/ultrasound confirms renal origin. Overall 5-year survival now exceeds 90% with multimodal nephrectomy and combination chemotherapy (vincristine, dactinomycin +/- doxorubicin).",
+    "original_notes": "Pages 148-149: Wilms tumor. Does NOT cross midline. Hypertension (T), Lung metastases (T)."
+  },
+  {
+    "id": "card_027",
+    "page": 150,
+    "deck": "Paediatric Slide Quiz",
+    "category": "Infectious Diseases & Tropical Medicine",
+    "title": "Acute Diarrhea & Gastroenteritis in Children",
+    "vignette": "Concerning the etiology, classification, and fluid management of acute diarrhea in children:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "Diarrhea lasting greater than 5 days is classified as persistent diarrhea",
+        "answer": false,
+        "explanation": "False. By WHO definition: Acute diarrhea lasts <14 days; Persistent diarrhea lasts 14 days or longer; Chronic diarrhea lasts >30 days. Five days remains within the definition of acute diarrhea."
+      },
+      {
+        "id": "B",
+        "text": "Enteroinvasive E. coli (EIEC) causes secretory diarrhea",
+        "answer": false,
+        "explanation": "False. Enteroinvasive E. coli (EIEC) invades colonic enterocytes causing inflammatory mucosal ulceration and dysentery (bloody-mucoid diarrhea), similar to Shigella. Enterotoxigenic E. coli (ETEC) and Vibrio cholerae cause copious secretory diarrhea via heat-labile (LT) and heat-stable (ST) enterotoxins."
+      },
+      {
+        "id": "C",
+        "text": "Giardia lamblia is associated with malabsorption and foul watery stools",
+        "answer": true,
+        "explanation": "True. Giardia trophozoites adhere to duodenal and jejunal brush border microvilli, flattening villi and producing malabsorptive, frothy, foul-smelling diarrhea with bloating and flatulence."
+      },
+      {
+        "id": "D",
+        "text": "The commonest bacterial cause of dysentery is Shigella",
+        "answer": true,
+        "explanation": "True. Shigella flexneri and Shigella sonnei are the leading causes of acute bloody diarrhea (bacillary dysentery) in children in developing countries."
+      },
+      {
+        "id": "E",
+        "text": "5% Dextrose water is an appropriate solution for rapid volume expansion in severe dehydration",
+        "answer": false,
+        "explanation": "False. 5% Dextrose is hypotonic in the circulation once metabolized, rapidly shifting into cells and failing to expand intravascular volume. It precipitates acute cerebral edema and severe hyponatremia. The WHO resuscitation fluid of choice is Ringer's Lactate (Hartmann's) or Normal Saline (0.9% NaCl)."
+      }
+    ],
+    "clinical_summary": "Diarrheal diseases are the second leading cause of under-5 mortality. Rehydration is categorized by WHO into Plan A (No dehydration: extra fluids, home ORS), Plan B (Some dehydration: 75 mL/kg ORS over 4 hours), and Plan C (Severe dehydration: 100 mL/kg IV Ringer's Lactate). Routine zinc supplementation (10-20 mg daily for 10-14 days) shortens duration and prevents recurrence.",
+    "original_notes": "Pages 150-151: Answer: a. F (>14 days), b. F (EIEC causes dysentery), c. T, d. T, e. F (Ringer's Lactate used)."
+  },
+  {
+    "id": "card_028",
+    "page": 154,
+    "deck": "Paediatric Slide Quiz",
+    "category": "Respiratory & Pulmonology",
+    "title": "Lobar Pneumonia on Chest Radiograph",
+    "vignette": "Examine this chest radiograph of a 6-year-old presenting with acute onset high fever, tachypnea, productive cough, and right-sided chest pain:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "The diagnosis is right middle lobe pneumonia",
+        "answer": true,
+        "explanation": "True. Homogeneous dense airspace consolidation silhouetting the right heart border (silhouette sign) with visible air bronchograms confirms right middle lobe lobar consolidation."
+      },
+      {
+        "id": "B",
+        "text": "Air bronchograms are characteristically present within the opacity",
+        "answer": true,
+        "explanation": "True. Air bronchograms represent patent branching bronchi filled with air outlined against surrounding fluid/exudate-filled alveoli, pathognomonic for alveolar consolidation."
+      },
+      {
+        "id": "C",
+        "text": "Streptococcus pneumoniae is the commonest community-acquired bacterial pathogen",
+        "answer": true,
+        "explanation": "True. Streptococcus pneumoniae (pneumococcus) remains the leading bacterial cause of community-acquired lobar pneumonia across all pediatric age groups beyond the neonatal period."
+      },
+      {
+        "id": "D",
+        "text": "Bronchial breathing and increased vocal resonance are expected on auscultation",
+        "answer": true,
+        "explanation": "True. Sound waves travel faster and with less attenuation through consolidated, solid lung tissue than through air-filled alveoli, creating high-pitched tubular bronchial breath sounds, egophony, and whispering pectoriloquy."
+      },
+      {
+        "id": "E",
+        "text": "High-dose amoxicillin is the first-line oral empirical antibiotic",
+        "answer": true,
+        "explanation": "True. High-dose oral amoxicillin (80-90 mg/kg/day divided into 2-3 doses) provides excellent coverage against intermediate-resistant S. pneumoniae and is WHO first-line therapy."
+      }
+    ],
+    "clinical_summary": "Pneumonia clinical signs: WHO tachypnea thresholds (>60 bpm <2mo, >50 bpm 2-11mo, >40 bpm 1-5yr), chest indrawing, grunting, nasal flaring. Physical findings over consolidation: dullness to percussion, increased tactile fremitus, bronchial breathing, late inspiratory crackles. First-line outpatients: high-dose oral amoxicillin; inpatients: IV ampicillin/crystalline penicillin + gentamicin.",
+    "original_notes": "Pages 154-155: Diagnosis: Lobar Pneumonia. Air bronchogram, S. pneumoniae, amoxicillin."
+  },
+  {
+    "id": "card_029",
+    "page": 156,
+    "deck": "Paediatric Slide Quiz",
+    "category": "Pediatric Surgery & Congenital Anomalies",
+    "title": "Prune Belly Syndrome (Eagle-Barrett Syndrome)",
+    "vignette": "Concerning the infant shown with a wrinkled, flaccid, lax abdomen, empty scrotum, and dilated tortuous ureters:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "The condition shown is Prune Belly Syndrome",
+        "answer": true,
+        "explanation": "True. The wrinkled, prune-like skin appearance of the anterior abdominal wall is pathognomonic of Prune Belly Syndrome (Eagle-Barrett syndrome / triad syndrome)."
+      },
+      {
+        "id": "B",
+        "text": "Bilateral cryptorchidism is an obligatory diagnostic feature",
+        "answer": true,
+        "explanation": "True. The classic diagnostic triad consists of: 1) Deficiency/absence of anterior abdominal wall muscles, 2) Bilateral undescended intra-abdominal testes (cryptorchidism), and 3) Dilation of the urinary collecting system (megaloureters, megacystis)."
+      },
+      {
+        "id": "C",
+        "text": "Females are more frequently affected than males",
+        "answer": false,
+        "explanation": "False. Over 95% of patients with Prune Belly Syndrome are male. Female presentation is exceptionally rare (<5%) and lacks the cryptorchidism component."
+      },
+      {
+        "id": "D",
+        "text": "Pulmonary hypoplasia is a recognized life-threatening complication",
+        "answer": true,
+        "explanation": "True. Severe oligohydramnios resulting from in utero urinary tract obstruction leads to secondary pulmonary hypoplasia, which is the leading cause of early neonatal death in affected infants."
+      },
+      {
+        "id": "E",
+        "text": "Vesicoureteral reflux (VUR) is commonly present",
+        "answer": true,
+        "explanation": "True. Massive, tortuous hydroureteronephrosis, deficient ureteral peristalsis, and high-grade bilateral vesicoureteral reflux (VUR) occur in >75% of cases."
+      }
+    ],
+    "clinical_summary": "Prune Belly Syndrome (Eagle-Barrett Triad): 1) Abdominal wall muscle deficiency (wrinkled prune appearance), 2) Bilateral cryptorchidism, 3) Urinary tract anomalies (megacystis, tortuous dilated ureters, renal dysplasia). Oligohydramnios sequence may cause Potter facies and pulmonary hypoplasia. Long-term management focuses on preserving renal function, preventing UTIs, abdominal wall reconstruction, and bilateral orchiopexy.",
+    "original_notes": "Pages 156-157: Prune Belly Syndrome. Male predominance, cryptorchidism, pulmonary hypoplasia."
+  },
+  {
+    "id": "card_030",
+    "page": 182,
+    "deck": "Paediatric Slide Quiz",
+    "category": "Oncology & Hematology",
+    "title": "Retinoblastoma & Leukocoria (White Pupillary Reflex)",
+    "vignette": "A 14-month-old girl presents with an abnormal white pupil reflex ('cat's eye reflex') in her left eye noticed on flash photography:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "The clinical sign shown is leukocoria",
+        "answer": true,
+        "explanation": "True. Leukocoria (white pupillary reflex instead of the normal red reflex on direct ophthalmoscopy / Bruckner test) is the most common presenting sign (>60%) of retinoblastoma."
+      },
+      {
+        "id": "B",
+        "text": "Retinoblastoma is the most common primary intraocular malignancy in children",
+        "answer": true,
+        "explanation": "True. Retinoblastoma accounts for >95% of intraocular malignancies in infancy and early childhood, with average age at diagnosis of 12-18 months."
+      },
+      {
+        "id": "C",
+        "text": "Inactivation of both alleles of the RB1 tumor suppressor gene is required",
+        "answer": true,
+        "explanation": "True. Knudson's 'two-hit hypothesis' was established in retinoblastoma: both copies of the RB1 gene on chromosome 13q14 must be mutated or deleted in retinal cells."
+      },
+      {
+        "id": "D",
+        "text": "Bilateral cases are usually hereditary (germline mutation)",
+        "answer": true,
+        "explanation": "True. About 40% of cases are germline/hereditary (almost all bilateral or multifocal), placing patients at lifetime risk for second primary malignancies (especially osteosarcoma)."
+      },
+      {
+        "id": "E",
+        "text": "Incisional biopsy of the globe is mandatory before enucleation or chemotherapy",
+        "answer": false,
+        "explanation": "False. Biopsy of retinoblastoma is ABSOLUTELY CONTRAINDICATED. Puncturing the eye breaches the scleral barrier, seeding tumor cells into the orbit and systemic circulation. Diagnosis is established purely non-invasively by fundoscopy under anesthesia, ultrasound, and MRI."
+      }
+    ],
+    "clinical_summary": "Retinoblastoma red flags: Leukocoria, strabismus, persistent red eye, and visual loss. Red reflex (Bruckner test) screening is mandatory in all well-child visits. Differential of leukocoria: Congenital cataract, Retinopathy of Prematurity (ROP), Persistent Fetal Vasculature (PFV), Coats' disease, Toxocariasis. Never biopsy an intraocular mass!",
+    "original_notes": "Pages 182-183: Retinoblastoma. Leukocoria. RB1 gene. Never biopsy globe (F)."
+  },
+  {
+    "id": "card_031",
+    "page": 192,
+    "deck": "Paediatric Slide Quiz",
+    "category": "Oncology & Hematology",
+    "title": "Burkitt Lymphoma: Endemic Jaw Mass",
+    "vignette": "A 6-year-old boy from an endemic malaria region presents with a rapidly enlarging, painless mass involving the right mandible and loosening of teeth:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "The most likely diagnosis is Burkitt's Lymphoma",
+        "answer": true,
+        "explanation": "True. Rapidly enlarging jaw/facial bone swellings in children aged 3-8 years in tropical sub-Saharan Africa are the hallmark presentation of endemic Burkitt's lymphoma."
+      },
+      {
+        "id": "B",
+        "text": "Epstein-Barr Virus (EBV) infection is implicated in nearly 100% of endemic cases",
+        "answer": true,
+        "explanation": "True. Endemic Burkitt lymphoma has a >95-100% association with latent Epstein-Barr virus (EBV) infection acting synergistically with chronic holoendemic Plasmodium falciparum malaria."
+      },
+      {
+        "id": "C",
+        "text": "The classic cytogenetic abnormality involves translocation t(8;14)",
+        "answer": true,
+        "explanation": "True. Over 85% of cases harbor t(8;14)(q24;q32), which translocates the c-MYC proto-oncogene next to the immunoglobulin heavy chain (IgH) enhancer, driving runaway cellular proliferation."
+      },
+      {
+        "id": "D",
+        "text": "Histology demonstrates a 'starry sky' appearance",
+        "answer": true,
+        "explanation": "True. Monomorphic sheets of small non-cleaved basophilic B-lymphoblasts interspersed with pale, lipid-laden tingible-body macrophages give the pathognomonic 'starry sky' pattern."
+      },
+      {
+        "id": "E",
+        "text": "It is one of the slowest growing childhood neoplasms",
+        "answer": false,
+        "explanation": "False. Burkitt lymphoma is one of the fastest growing human malignancies, with a doubling time of approximately 24 hours and a Ki-67 proliferation index of nearly 100%. Patients are at acute risk of spontaneous and post-chemotherapy Tumor Lysis Syndrome (TLS)."
+      }
+    ],
+    "clinical_summary": "Burkitt Lymphoma subtypes: 1) Endemic (African: jaw/orbit, EBV+, peak age 4-7); 2) Sporadic (Western: abdominal/ileocecal mass, ascites, lower EBV link); 3) Immunodeficiency-associated (HIV). Hallmark: c-myc translocation t(8;14), starry sky histology. Emergency: Tumor Lysis Syndrome prophylaxis (vigorous IV hydration, rasburicase/allopurinol, electrolyte surveillance).",
+    "original_notes": "Pages 192-193: Burkitt's lymphoma. EBV link, t(8;14), starry sky, rapid doubling time."
+  },
+  {
+    "id": "card_032",
+    "page": 196,
+    "deck": "Paediatric Slide Quiz",
+    "category": "Respiratory & Pulmonology",
+    "title": "Croup (Acute Laryngotracheobronchitis)",
+    "vignette": "A 2-year-old boy presents in the emergency room at 2 AM with a sudden onset of a harsh barking cough, hoarseness, and inspiratory stridor preceded by a mild cold:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "Parainfluenza virus (type 1) is the commonest causative agent",
+        "answer": true,
+        "explanation": "True. Human Parainfluenza viruses (especially type 1, followed by types 2 and 3) cause over 75% of viral croup cases."
+      },
+      {
+        "id": "B",
+        "text": "The classic AP neck radiograph demonstrates the 'steeple sign'",
+        "answer": true,
+        "explanation": "True. Subglottic mucosal edema tapers the tracheal air column into an inverted 'V' or church steeple on anterior-posterior neck X-ray (the 'steeple sign')."
+      },
+      {
+        "id": "C",
+        "text": "A single dose of oral Dexamethasone is effective in all severity grades",
+        "answer": true,
+        "explanation": "True. Evidence confirms that a single dose of oral dexamethasone (0.15 to 0.6 mg/kg) significantly reduces subglottic swelling, symptom duration, hospitalization rates, and need for intubation in mild, moderate, and severe croup."
+      },
+      {
+        "id": "D",
+        "text": "Nebulised racemic epinephrine provides immediate temporary relief in severe stridor",
+        "answer": true,
+        "explanation": "True. Alpha-1 adrenergic mucosal vasoconstriction rapidly shrinks subglottic edema within 10-30 minutes, providing critical temporary relief while steroids take effect."
+      },
+      {
+        "id": "E",
+        "text": "Routine oropharyngeal examination with a tongue depressor is recommended in severe stridor",
+        "answer": false,
+        "explanation": "False. In any child with acute upper airway stridor, invasive oral examination with a tongue depressor is strictly avoided because if the underlying condition is acute epiglottitis, agitating the child or pressing on the epiglottis can precipitate immediate, fatal laryngospasm and complete airway arrest."
+      }
+    ],
+    "clinical_summary": "Croup vs Epiglottitis: Croup (viral, barking seal cough, subglottic steeple sign, child looks well, managed with dexamethasone +/- nebulized adrenaline); Epiglottitis (bacterial - Hib, rapid onset, toxic, high fever, dysphagia, drooling, distress, tripod posture, 'thumb sign' on lateral X-ray, ENT emergency airway intubation).",
+    "original_notes": "Pages 196-197: Croup. Parainfluenza virus. Dexamethasone. Avoid agitating child."
+  },
+  {
+    "id": "card_033",
+    "page": 200,
+    "deck": "Paediatric Slide Quiz",
+    "category": "Respiratory & Pulmonology",
+    "title": "Acute Severe & Life-Threatening Asthma",
+    "vignette": "A 10-year-old known asthmatic presents to the emergency room in severe respiratory distress, unable to speak in full sentences:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "An inability to complete sentences in one breath indicates severe exacerbation",
+        "answer": true,
+        "explanation": "True. Inability to speak or complete sentences in one breath, tachypnea, tachycardia, and accessory muscle use are hallmark signs of acute severe asthma."
+      },
+      {
+        "id": "B",
+        "text": "Pulsus alternans is a recognised complication",
+        "answer": false,
+        "explanation": "False. Pulsus paradoxus (an exaggerated drop in systolic blood pressure >10-15 mmHg during inspiration due to hyperinflated lungs compressing the heart), NOT pulsus alternans (seen in left ventricular failure), is seen in acute severe asthma."
+      },
+      {
+        "id": "C",
+        "text": "A PEFR that is 70% of predicted indicates life-threatening attack",
+        "answer": false,
+        "explanation": "False. A PEFR of 70% corresponds to a mild-to-moderate exacerbation (>50-75%). Acute severe asthma is defined by PEFR 33-50%, and life-threatening asthma is defined by PEFR <33% of predicted or personal best."
+      },
+      {
+        "id": "D",
+        "text": "Presence of cyanosis is a sign of life-threatening asthma",
+        "answer": true,
+        "explanation": "True. Central cyanosis, exhaustion, silent chest, poor respiratory effort, hypotension, and altered consciousness/confusion signify life-threatening asthma requiring immediate PICU admission."
+      },
+      {
+        "id": "E",
+        "text": "An absence of wheeze on auscultation always indicates complete resolution of bronchospasm",
+        "answer": false,
+        "explanation": "False. The 'silent chest' (complete absence of wheezing and breath sounds) indicates severe, critical airway obstruction with airflow too sluggish to generate audible wheezing\u2014a sign of imminent respiratory arrest!"
+      }
+    ],
+    "clinical_summary": "Asthma Exacerbation Severity: Moderate: SpO2 92-95%, able to talk in phrases, PEFR 50-75%. Severe: SpO2 <92%, too breathless to talk, accessory muscle indrawing, tachycardia, PEFR 33-50%. Life-threatening: Silent chest, cyanosis, bradycardia, confusion, exhaustion, PEFR <33%. Acute management: Oxygen, frequent/continuous nebulized Salbutamol + Ipratropium, oral/IV steroids, IV Magnesium Sulfate.",
+    "original_notes": "Pages 200-201: Acute severe asthma. Pulsus paradoxus (not alternans); Silent chest is life-threatening."
+  },
+  {
+    "id": "card_034",
+    "page": 214,
+    "deck": "Paediatric Slide Quiz",
+    "category": "Nutrition & Endocrinology",
+    "title": "Nutritional Rickets: Clinical & Radiographic Signs",
+    "vignette": "A 14-month-old toddler presents with delayed walking, widened wrists, bow legs (genu varum), and craniotabes:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "Vitamin D deficiency is the primary global etiology",
+        "answer": true,
+        "explanation": "True. Inadequate dietary vitamin D intake combined with lack of sunlight exposure (or dietary calcium deficiency in certain African populations) is the leading cause of nutritional rickets."
+      },
+      {
+        "id": "B",
+        "text": "Metaphyseal cupping, splaying, and fraying are classic radiographic signs",
+        "answer": true,
+        "explanation": "True. Failure of osteoid mineralization at the growth plate causes disorganized accumulation of uncalcified cartilage, producing cupping, fraying (brush-like margin), and splaying (widening) of metaphyses on wrist and knee X-rays."
+      },
+      {
+        "id": "C",
+        "text": "Serum alkaline phosphatase (ALP) is characteristically elevated",
+        "answer": true,
+        "explanation": "True. Serum alkaline phosphatase (ALP) released by hyperactive osteoblasts attempting to lay down bone is the most sensitive biochemical marker of active rickets."
+      },
+      {
+        "id": "D",
+        "text": "Harrison's sulcus is caused by diaphragmatic pull on unmineralized ribs",
+        "answer": true,
+        "explanation": "True. Chronic inward pulling of the diaphragm on pliable, poorly mineralized ribs produces a horizontal depression along the lower thoracic margin (Harrison's groove/sulcus)."
+      },
+      {
+        "id": "E",
+        "text": "Serum parathyroid hormone (PTH) levels are typically suppressed",
+        "answer": false,
+        "explanation": "False. Hypocalcemia triggers secondary hyperparathyroidism; elevated PTH mobilizes bone calcium and wastes phosphate in urine, leading to characteristic hypophosphatemia."
+      }
+    ],
+    "clinical_summary": "Rickets Clinical Features: Head (craniotabes, frontal bossing, delayed fontanelle closure); Chest (rachitic rosary at costochondral junctions, Harrison's groove, pigeon chest); Limbs (widened wrist/ankle epiphyses, genu varum/bow legs or genu valgum/knock knees); General (hypotonia, delayed motor milestones, hypocalcemic tetany/seizures). Treatment: Stoss therapy (high-dose vitamin D3 300,000-600,000 IU or daily 2,000-5,000 IU for 6-12 weeks) + elemental calcium.",
+    "original_notes": "Pages 214-215: Rickets. Genu varum, rachitic rosary, cupping and fraying, elevated ALP, elevated PTH."
+  },
+  {
+    "id": "card_035",
+    "page": 228,
+    "deck": "Clinical OSCE Stations",
+    "category": "Infectious Diseases & Tropical Medicine",
+    "title": "OSCE Station: Measles (Rubeola)",
+    "vignette": "A 2-year-old unimmunized child presents with high fever, cough, coryza, conjunctivitis, and a confluent erythematous maculopapular rash that began behind the ears:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "The rash characteristically starts behind the ears and hairline before spreading centrifugally",
+        "answer": true,
+        "explanation": "True. The classic measles exanthem begins on the forehead, behind the ears, and along the hairline on day 4 of fever, spreading downward over the face, neck, trunk, and extremities."
+      },
+      {
+        "id": "B",
+        "text": "Koplik spots appear on the buccal mucosa 1-2 days before the skin rash",
+        "answer": true,
+        "explanation": "True. Koplik spots (tiny bluish-white grains on an erythematous base opposite the lower molars) are pathognomonic enanthem appearing 24-48 hours before the external exanthem."
+      },
+      {
+        "id": "C",
+        "text": "Desquamation with brownish hyperpigmentation occurs as the rash resolves",
+        "answer": true,
+        "explanation": "True. As the rash fades in order of appearance, fine branny desquamation and coppery-brown hyperpigmentation persist for 1-2 weeks."
+      },
+      {
+        "id": "D",
+        "text": "High-dose Vitamin A administration reduces morbidity and mortality",
+        "answer": true,
+        "explanation": "True. Measles depletes hepatic vitamin A reserves. WHO guidelines mandate two consecutive daily doses of oral Vitamin A (200,000 IU for children >=12 months) to prevent blindness, croup, and fatal pneumonia."
+      },
+      {
+        "id": "E",
+        "text": "Pneumonia is the commonest cause of measles-related mortality",
+        "answer": true,
+        "explanation": "True. Secondary bacterial pneumonia (or primary Hecht giant-cell pneumonia) is the leading cause of death in pediatric measles cases."
+      }
+    ],
+    "clinical_summary": "Measles (Morbillivirus) cardinal 3 C's: Cough, Coryza, Conjunctivitis. Complications: Otitis media (commonest complication), Bronchopneumonia (commonest fatal complication), Diarrhea, Corneal ulceration / Keratomalacia, Acute post-infectious encephalitis, and Subacute Sclerosing Panencephalitis (SSPE, delayed 7-10 years). Vitamin A is lifesaving.",
+    "original_notes": "Pages 228-229: Measles station. Desquamation, hyperpigmentation, Vitamin A therapy, Koplik spots."
+  },
+  {
+    "id": "card_036",
+    "page": 230,
+    "deck": "Clinical OSCE Stations",
+    "category": "Nutrition & Endocrinology",
+    "title": "OSCE Station: Vitamin A Deficiency & Xerophthalmia",
+    "vignette": "An unimmunized 3-year-old recovering from measles presents with night blindness, dry lusterless conjunctiva, and foamy triangular plaques on the bulbar conjunctiva:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "Night blindness (XN) is the earliest functional ocular symptom",
+        "answer": true,
+        "explanation": "True. Impaired rhodopsin regeneration in retinal rod photoreceptors causes night blindness, which is the earliest functional symptom of vitamin A deficiency."
+      },
+      {
+        "id": "B",
+        "text": "The foamy plaques shown on the bulbar conjunctiva are Bitot's spots (X1B)",
+        "answer": true,
+        "explanation": "True. Bitot's spots are elevated, triangular, silvery-grey foamy lesions consisting of keratinized epithelial debris and Corynebacterium xerosis located on the bulbar conjunctiva near the limbus."
+      },
+      {
+        "id": "C",
+        "text": "Corneal ulceration and keratomalacia (X3) represent ophthalmic emergencies",
+        "answer": true,
+        "explanation": "True. Keratomalacia involves liquefactive necrosis and melting of the cornea, leading to perforation, iris prolapse, and permanent blindness if not treated within hours."
+      },
+      {
+        "id": "D",
+        "text": "Measles infection precipitates acute xerophthalmia",
+        "answer": true,
+        "explanation": "True. Measles infection drastically increases metabolic consumption of retinol and impairs intestinal absorption, turning marginal deficiency into fulminant keratomalacia."
+      },
+      {
+        "id": "E",
+        "text": "Treatment consists of a single low-dose multivitamin drop",
+        "answer": false,
+        "explanation": "False. WHO therapeutic protocol requires high-dose oral Vitamin A on Day 1, Day 2, and Day 14 (100,000 IU for 6-11 months; 200,000 IU for >=12 months) + topical antibiotic eye ointment."
+      }
+    ],
+    "clinical_summary": "WHO Xerophthalmia Classification: XN (Night blindness) -> X1A (Conjunctival xerosis) -> X1B (Bitot's spots) -> X2 (Corneal xerosis) -> X3A (Corneal ulceration <1/3) -> X3B (Keratomalacia >1/3 cornea) -> XS (Corneal scar) -> XF (Xerophthalmic fundus). Vitamin A is also essential for respiratory and intestinal mucosal integrity.",
+    "original_notes": "Pages 230-231: Corneal opacity, Bitot spots, measles trigger, high-dose Vitamin A emergency."
+  },
+  {
+    "id": "card_037",
+    "page": 232,
+    "deck": "Clinical OSCE Stations",
+    "category": "Neonatology & Perinatal",
+    "title": "OSCE Station: Infant of a Diabetic Mother (IDM)",
+    "vignette": "A term newborn weighing 4.8 kg is delivered via emergency Cesarean section to a mother with poorly controlled gestational diabetes:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "The neonate demonstrates macrosomia (large for gestational age)",
+        "answer": true,
+        "explanation": "True. Maternal hyperglycemia results in fetal hyperglycemia, stimulating fetal pancreatic beta-cells to oversecrete insulin. Fetal hyperinsulinemia acts as a powerful anabolic growth factor, producing marked macrosomia (birth weight >4 kg or >90th centile)."
+      },
+      {
+        "id": "B",
+        "text": "Neonatal hypoglycemia is a common acute complication in the first hours of life",
+        "answer": true,
+        "explanation": "True. Cord clamping abruptly halts maternal glucose delivery, but persistent fetal hyperinsulinemia drives rapid glucose uptake, plunging blood glucose (<2.6 mmol/L or <45 mg/dL) within 1-2 hours."
+      },
+      {
+        "id": "C",
+        "text": "Hypertrophic cardiomyopathy with asymmetric septal hypertrophy may occur",
+        "answer": true,
+        "explanation": "True. Insulin-driven glycogen deposition in the fetal myocardium causes transient asymmetric septal hypertrophy and subaortic stenosis in 30% of IDMs."
+      },
+      {
+        "id": "D",
+        "text": "Sacral agenesis (caudal regression syndrome) is a specific congenital anomaly",
+        "answer": true,
+        "explanation": "True. Caudal regression syndrome (sacral agenesis with lower extremity atrophy) is 200 times more common in diabetic pregnancies than in the general population."
+      },
+      {
+        "id": "E",
+        "text": "Serum calcium and magnesium levels are characteristically elevated",
+        "answer": false,
+        "explanation": "False. IDMs frequently suffer from hypocalcemia and hypomagnesemia in the first 24-72 hours due to transient functional hypoparathyroidism and maternal urinary magnesium losses."
+      }
+    ],
+    "clinical_summary": "Pedder-Freinkel Hypothesis: Maternal hyperglycemia -> Fetal hyperglycemia -> Fetal hyperinsulinemia -> Macrosomia + organomegaly (except brain). Complications: Hypoglycemia (screen hourly after birth), Hypocalcemia, Polycythemia/hyperviscosity, Hyperbilirubinemia, RDS (insulin inhibits surfactant synthesis), Caudal regression syndrome, and shoulder dystocia/brachial plexus palsy.",
+    "original_notes": "Pages 232-233: Macrosomia, hypoglycemia, cardiomyopathy, caudal regression, hypocalcemia."
+  },
+  {
+    "id": "card_038",
+    "page": 250,
+    "deck": "Clinical OSCE Stations",
+    "category": "Oncology & Hematology",
+    "title": "OSCE Station: Sickle Cell Disease Dactylitis (Hand-Foot Syndrome)",
+    "vignette": "A 9-month-old infant with Sickle Cell Anemia (HbSS) presents with acute painful, tender, non-pitting swelling of both hands and feet, accompanied by low-grade fever:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "The presentation is classic for sickle cell dactylitis (hand-foot syndrome)",
+        "answer": true,
+        "explanation": "True. Dactylitis is the typical initial vaso-occlusive crisis in infants with SCD (aged 6 months to 2 years) because active hematopoiesis is still present within the small bones of the hands and feet."
+      },
+      {
+        "id": "B",
+        "text": "Microvascular infarction of bone marrow in metacarpals and phalanges is the primary mechanism",
+        "answer": true,
+        "explanation": "True. Deoxygenated HbS polymerizes, distorting erythrocytes into rigid sickle shapes that occlude the microcirculation of bone marrow, resulting in ischemia, bone infarction, and intense periosteal inflammation."
+      },
+      {
+        "id": "C",
+        "text": "Initial radiographs taken on day 1 typically show extensive osteolysis",
+        "answer": false,
+        "explanation": "False. Initial X-rays during the first 7-10 days show only soft tissue swelling. Bony changes (cortical thinning, periosteal new bone formation, patchy lucency) take 10-14 days to appear."
+      },
+      {
+        "id": "D",
+        "text": "Encapsulated bacterial infections (especially Streptococcus pneumoniae) pose a lethal risk",
+        "answer": true,
+        "explanation": "True. Repeated splenic microinfarctions cause functional asplenia by 1-2 years of age, predisposing infants to fulminant pneumococcal sepsis. Daily prophylactic penicillin V and conjugate vaccines are mandatory."
+      },
+      {
+        "id": "E",
+        "text": "Hydroxyurea therapy increases HbF levels and reduces vaso-occlusive crises",
+        "answer": true,
+        "explanation": "True. Hydroxyurea stimulates fetal hemoglobin (HbF) synthesis, which inhibits intracellular HbS polymerization, dramatically reducing vaso-occlusive crises, acute chest syndrome, and mortality."
+      }
+    ],
+    "clinical_summary": "Sickle Cell Disease (HbSS): Hand-foot syndrome (dactylitis) is usually the sentinel manifestation as fetal HbF levels wane after 6 months. Management of dactylitis: aggressive oral/IV hydration (1.5x maintenance), analgesia (paracetamol, NSAIDs, cautious weak opioids), warm compresses (never cold!). Long-term: Penicillin V prophylaxis, folic acid, conjugate vaccines (PCV, Hib, MenACWY), and Hydroxyurea.",
+    "original_notes": "Pages 250-251: Sickle cell dactylitis. Bone infarction, functional asplenia, hydroxyurea therapy."
+  },
+  {
+    "id": "card_039",
+    "page": 264,
+    "deck": "Clinical OSCE Stations",
+    "category": "Nephrology & Urology",
+    "title": "OSCE Station: Micturating Cystourethrogram (MCUG) & Reflux",
+    "vignette": "Concerning this fluoroscopic Micturating Cystourethrogram (MCUG / VCUG) performed on a 6-month-old male infant following a febrile urinary tract infection:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "MCUG is the gold standard investigation for vesicoureteral reflux (VUR)",
+        "answer": true,
+        "explanation": "True. Micturating Cystourethrogram (MCUG) provides definitive anatomical grading of VUR (Grades I-V) and dynamic visualization of the urethra during voiding."
+      },
+      {
+        "id": "B",
+        "text": "It is essential for confirming posterior urethral valves in infant boys",
+        "answer": true,
+        "explanation": "True. In posterior urethral valves (PUV), the voiding phase on MCUG demonstrates a characteristic dilated, elongated posterior urethra with abrupt narrowing at the valve level, hypertrophy of the bladder neck, and trabeculation."
+      },
+      {
+        "id": "C",
+        "text": "Prophylactic antibiotics are indicated during and after catheterization",
+        "answer": true,
+        "explanation": "True. Transurethral catheterization carries a substantial risk of introducing bacteria into an already vulnerable upper collecting system; antibiotic prophylaxis (e.g., trimethoprim or cephalexin) is routinely administered."
+      },
+      {
+        "id": "D",
+        "text": "Active, untreated UTI is an indication to perform the procedure immediately",
+        "answer": false,
+        "explanation": "False. An active UTI is an ABSOLUTE CONTRAINDICATION to performing an MCUG. Contrast injection under pressure into an infected bladder can force infected urine into the renal parenchyma, precipitating fulminant urosepsis. The UTI must be treated and urine sterilized for at least 1-2 weeks before catheterization."
+      },
+      {
+        "id": "E",
+        "text": "Grade V reflux is characterized by tortuous ureteral dilation and loss of fornices",
+        "answer": true,
+        "explanation": "True. Grade V VUR involves massive retrograde flow with extreme tortuosity, gross dilation of ureters and calyces, and complete effacement of renal papillae impression."
+      }
+    ],
+    "clinical_summary": "Vesicoureteral Reflux (VUR) Grading: Grade I: Reflux into non-dilated ureter; Grade II: Reflux into pelvis/calyces without dilation; Grade III: Mild-moderate dilation of ureter and pelvis, blunt calices; Grade IV: Moderate ureteric tortuosity with blunting of caliceal angles; Grade V: Severe tortuosity, gross dilation, loss of papillary impressions. DMSA renal scan is used to detect cortical renal scarring.",
+    "original_notes": "Pages 264-265: MCUG. Contrast voiding study. PUV detection. Contraindicated in active UTI."
+  },
+  {
+    "id": "card_040",
+    "page": 300,
+    "deck": "Emergency & Instruments",
+    "category": "Emergency & Instruments",
+    "title": "Pediatric Resuscitation: Bag-Valve-Mask (AMBU) Device",
+    "vignette": "Concerning the manual resuscitator (Bag-Valve-Mask / self-inflating bag) shown:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "The reservoir bag attached to the tail allows delivery of nearly 100% oxygen",
+        "answer": true,
+        "explanation": "True. Without an oxygen reservoir bag, a self-inflating bag entrains room air during reinflation, delivering only 40-50% FiO2. Connecting an oxygen reservoir and 10-15 L/min flow achieves 90-100% FiO2."
+      },
+      {
+        "id": "B",
+        "text": "The pop-off pressure release valve is typically set at 35-40 cm H2O to prevent barotrauma",
+        "answer": true,
+        "explanation": "True. Pediatric self-inflating bags incorporate an automatic pop-off valve calibrated to release at 35-40 cm H2O to prevent pulmonary overinflation, pneumothorax, and alveolar rupture."
+      },
+      {
+        "id": "C",
+        "text": "Near-drowning and cardiac arrest are indications for its use",
+        "answer": true,
+        "explanation": "True. Apnea, ineffective agonal respiratory efforts, severe hypoxia, and cardiopulmonary arrest are primary indications for positive pressure mask ventilation."
+      },
+      {
+        "id": "D",
+        "text": "The mask should cover the bridge of the nose, mouth, and tip of the chin",
+        "answer": true,
+        "explanation": "True. An airtight seal requires appropriate mask sizing: extending from the bridge of the nose, covering the mouth, and resting on the chin without compressing the eyes or extending past the mandible."
+      },
+      {
+        "id": "E",
+        "text": "Its use is safe in congenital diaphragmatic hernia prior to intubation",
+        "answer": false,
+        "explanation": "False. Mask positive pressure ventilation is STRICTLY CONTRAINDICATED in suspected Congenital Diaphragmatic Hernia (CDH). Bag-mask ventilation forces air down the esophagus into herniated intrathoracic bowel loops, causing acute pulmonary compression, mediastinal shift, and catastrophic circulatory collapse. Immediate endotracheal intubation is mandatory."
+      }
+    ],
+    "clinical_summary": "Bag-Valve-Mask (BVM) technique: Use the 'E-C clamp' technique (thumb and index finger form a 'C' to seal the mask; 3rd, 4th, 5th fingers form an 'E' lifting the mandibular ramus to maintain open airway). Deliver ventilations at 40-60 breaths/min in neonates, 20-30 in children. Observe chest rise. Contraindications to mask ventilation: Congenital diaphragmatic hernia and thick meconium before clearing.",
+    "original_notes": "Page 300: AMBU bag. Reservoir delivers 100% O2, pop-off valve, contraindicated in CDH."
+  },
+  {
+    "id": "card_041",
+    "page": 401,
+    "deck": "Emergency & Instruments",
+    "category": "Emergency & Instruments",
+    "title": "Soluset Pediatric Volumetric Fluid Giving Set",
+    "vignette": "Concerning the pediatric intravenous infusion equipment (Soluset / volumetric burette chamber) shown:",
+    "statements": [
+      {
+        "id": "1",
+        "text": "It is designed to prevent accidental fluid overload in small infants",
+        "answer": true,
+        "explanation": "True. The calibrated glass/plastic burette chamber (usually 100-150 mL) acts as a safety reservoir, ensuring that no more fluid than the measured chamber volume can accidentally infuse into a child if the roller clamp is left wide open."
+      },
+      {
+        "id": "2",
+        "text": "Standard pediatric microdrip delivers 15 drops per mL",
+        "answer": false,
+        "explanation": "False. Standard pediatric Solusets use a microdrip needle calibrated to deliver 60 drops (gtts) per mL (meaning drops/minute equals mL/hour). Macrodrip sets used in adults deliver 10, 15, or 20 drops/mL."
+      },
+      {
+        "id": "3",
+        "text": "The floating ball valve shuts off flow when the chamber is empty, preventing air embolism",
+        "answer": true,
+        "explanation": "True. An internal float valve at the bottom of the burette drops to seal the exit lumen when fluid is exhausted, preventing air from entering the IV tubing."
+      },
+      {
+        "id": "4",
+        "text": "It is used for accurate administration of IV medications and controlled fluid volume",
+        "answer": true,
+        "explanation": "True. Solusets allow precise dilution and timed infusion of IV antibiotics, potassium infusions, and strict maintenance fluids in newborns and young children."
+      },
+      {
+        "id": "5",
+        "text": "In preterms, fluid boluses should be given as rapidly as possible through the set",
+        "answer": false,
+        "explanation": "False. Rapid fluid boluses in premature infants trigger acute swings in cerebral blood flow velocity, dramatically increasing the risk of intraventricular hemorrhage (IVH) and patent ductus arteriosus (PDA). Fluid boluses must be given cautiously over 20-60 minutes."
+      }
+    ],
+    "clinical_summary": "Pediatric Fluid Management: Pediatric Soluset has a microdrip calibration of 60 gtts/mL (Rate in mL/hr = drops/min). Holliday-Segar formula for maintenance fluids: 100 mL/kg for first 10 kg, 50 mL/kg for second 10 kg, 20 mL/kg for each kg above 20 kg. Always use volumetric chambers to protect vulnerable infants from accidental volume overload.",
+    "original_notes": "Page 401: Soluset giving set. 60 gtts/mL, float valve, fluid overload prevention."
+  },
+  {
+    "id": "card_042",
+    "page": 442,
+    "deck": "Paediatric Slide Quiz",
+    "category": "Nutrition & Endocrinology",
+    "title": "Marasmic-Kwashiorkor in a 24-Month-Old",
+    "vignette": "The clinical picture shows a 24-month-old girl with a history of recurrent diarrhea and generalized body swelling. Her body weight is 9 kg (<60% expected):",
+    "statements": [
+      {
+        "id": "A",
+        "text": "The most likely diagnosis is Marasmic-Kwashiorkor",
+        "answer": true,
+        "explanation": "True. The co-existence of severe somatic wasting (marked loss of subcutaneous fat and muscle, sunken facies) with bilateral pitting nutritional edema classifies the child as Marasmic-Kwashiorkor, the most severe category of protein-energy malnutrition."
+      },
+      {
+        "id": "B",
+        "text": "Her condition is a complication of excessive calorie intake",
+        "answer": false,
+        "explanation": "False. It is caused by chronic, severe combined deficiency of both dietary protein and energy/calories, often exacerbated by frequent bouts of gastroenteritis and poverty."
+      },
+      {
+        "id": "C",
+        "text": "Hepatomegaly is a rare finding in this condition",
+        "answer": false,
+        "explanation": "False. Marked hepatomegaly due to severe triglyceride accumulation in hepatocytes (fatty liver infiltration from impaired apolipoprotein synthesis) is a classic physical sign in kwashiorkor and marasmic-kwashiorkor."
+      },
+      {
+        "id": "D",
+        "text": "Edema is a sign of primary renal disease in this presentation",
+        "answer": false,
+        "explanation": "False. The edema is nutritional in origin, driven by profound hypoalbuminemia, altered vascular permeability, sodium retention, and leaky cellular membranes, rather than intrinsic renal failure."
+      },
+      {
+        "id": "E",
+        "text": "Adequate protein and micronutrients are required during gradual rehabilitation",
+        "answer": true,
+        "explanation": "True. After initial resuscitation and stabilization with low-protein F-75 formula, catch-up growth is achieved with high-protein, calorie-dense F-100 formula (or Ready-to-Use Therapeutic Food - RUTF) supplemented with vitamin A, zinc, and potassium."
+      }
+    ],
+    "clinical_summary": "Wellcome Classification of Severe Malnutrition: Weight-for-age >80%: Normal; 60-80% with edema: Kwashiorkor; 60-80% without edema: Underweight; <60% without edema: Marasmus; <60% WITH edema: Marasmic-Kwashiorkor. Key threats during initial management: Hypoglycemia, Hypothermia, Dehydration, and Refeeding cardiac failure.",
+    "original_notes": "Page 442: Diagnosis: Marasmic-Kwashiorkor. Hepatomegaly common, nutritional edema."
+  },
+  {
+    "id": "card_043",
+    "page": 3,
+    "deck": "Classic Picture Test",
+    "category": "Respiratory & Pulmonology",
+    "title": "Stridor & Airway Management in an 18-Month-Old",
+    "vignette": "The 18-month-old child shown with acute stridor and respiratory distress will benefit from:",
+    "statements": [
+      {
+        "id": "11",
+        "text": "Being nursed at 45 degrees upright position",
+        "answer": false,
+        "explanation": "False. In acute upper airway obstruction, toddlers naturally adopt the position of maximum airway comfort (often sitting on a parent's lap leaning forward). Forcing the child into a fixed 45-degree angle in a crib increases agitation and can precipitate complete airway obstruction. Nursing in the position of comfort on the mother's lap is best."
+      },
+      {
+        "id": "12",
+        "text": "Salbutamol nebulisation",
+        "answer": false,
+        "explanation": "False. Salbutamol (albuterol) is a beta-2 agonist that dilates smooth muscles of the lower airways (bronchioles in asthma/bronchiolitis). It has no efficacy in subglottic or laryngeal upper airway edema; nebulized adrenaline (epinephrine) and corticosteroids are indicated."
+      },
+      {
+        "id": "13",
+        "text": "Humidified oxygen administration",
+        "answer": true,
+        "explanation": "True. Warm or cold humidified oxygen delivered non-invasively (blow-by or nasal prongs) relieves hypoxemia and prevents drying of thick secretions without distressing the child."
+      },
+      {
+        "id": "14",
+        "text": "IV Diazepam",
+        "answer": false,
+        "explanation": "False. Sedatives like diazepam are strictly contraindicated in acute upper airway obstruction because they depress central respiratory drive and blunt compensatory airway reflexes, leading to sudden hypoventilation and fatal respiratory arrest."
+      },
+      {
+        "id": "15",
+        "text": "Calcium to aid dentition",
+        "answer": false,
+        "explanation": "False. Routine calcium has no role in dentition or acute airway obstruction. It is completely irrelevant to the acute presentation."
+      }
+    ],
+    "clinical_summary": "Acute stridor in young children: Key causes include Croup (laryngotracheobronchitis), Foreign body aspiration, Acute epiglottitis, and Retropharyngeal abscess. Cardinal rule of management: Minimize agitation, keep the child in the mother's arms, avoid painful IV attempts or tongue blades, give humidified O2 and dexamethasone, and prepare for skilled airway intubation if deterioration occurs.",
+    "original_notes": "Page 3: Stridor in 18mo. Salbutamol F; Diazepam F; Position of comfort."
+  },
+  {
+    "id": "card_044",
+    "page": 13,
+    "deck": "Classic Picture Test",
+    "category": "Nutrition & Endocrinology",
+    "title": "Genu Varum (Bow Legs) vs Genu Valgum (Knock Knees)",
+    "vignette": "Concerning the clinical photograph showing significant lower extremity angular deformities in a toddler:",
+    "statements": [
+      {
+        "id": "61",
+        "text": "Genu varum refers to bow legs where the knees stay wide apart when ankles touch",
+        "answer": true,
+        "explanation": "True. Genu varum (bowed legs) is defined by increased intercondylar distance (>3-5 cm) when the medial malleoli are in contact."
+      },
+      {
+        "id": "62",
+        "text": "Genu valgum refers to knock knees where the ankles stay wide apart when knees touch",
+        "answer": true,
+        "explanation": "True. Genu valgum (knock knees) is defined by increased intermalleolar distance (>5-8 cm) when the medial femoral condyles are in contact."
+      },
+      {
+        "id": "63",
+        "text": "Nutritional rickets is the commonest pathological etiology in resource-limited settings",
+        "answer": true,
+        "explanation": "True. Deficient osteoid mineralization makes the weight-bearing tibia and femur soft and pliable, exaggerating physiological bowing into progressive pathological genu varum or valgum."
+      },
+      {
+        "id": "64",
+        "text": "Physiological genu varum normalizes spontaneously by 18-24 months of age",
+        "answer": true,
+        "explanation": "True. Physiological bowing of the lower extremities is normal in infants from birth up to 18-24 months due to intrauterine packing, transitioning to physiological valgus by 3-4 years, and stabilizing to adult alignment by 7 years."
+      },
+      {
+        "id": "65",
+        "text": "Blount disease (tibia vara) can be safely excluded without radiologic imaging",
+        "answer": false,
+        "explanation": "False. Progressive severe or asymmetric bowing requires standing AP knee/lower limb radiographs to differentiate physiological bowing/rickets from Blount disease (infantile tibia vara), which demonstrates diagnostic beaking, fragmentation, and depression of the medial proximal tibial metaphysis."
+      }
+    ],
+    "clinical_summary": "Angular knee deformities in children: Normal progression: Genu varum (birth to 2 years) -> Neutral (18-24 months) -> Genu valgum (peak at 3-4 years) -> Adult alignment (6-7 years). Red flags for pathological bowing: Unilateral/asymmetric bowing, progression after age 2, short stature (<5th centile), intercondylar distance >5 cm, or features of rickets / Blount disease.",
+    "original_notes": "Page 13 & 15: Genu varum (bow leg), Genu valgum (knock knee). Rickets association."
+  },
+  {
+    "id": "card_045",
+    "page": 20,
+    "deck": "CMDA Picture Test",
+    "category": "Neonatology & Perinatal",
+    "title": "Severe Hyperbilirubinemia & Kernicterus in a 15-Day-Old Neonate",
+    "vignette": "A 15-day-old term neonate admitted to the neonatal unit with deep jaundice extending to palms and soles, lethargy, poor sucking, and high-pitched cry:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "Renal failure is a recognised early complication",
+        "answer": false,
+        "explanation": "False. Acute bilirubin encephalopathy is primarily a neurological disease; unconjugated bilirubin specifically crosses the blood-brain barrier and damages basal ganglia and brainstem auditory nuclei, not renal tubular cells."
+      },
+      {
+        "id": "B",
+        "text": "Exchange blood transfusion (EBT) is indicated if serum bilirubin exceeds neurotoxic thresholds",
+        "answer": true,
+        "explanation": "True. Double-volume exchange blood transfusion (2 x 80-85 mL/kg) rapidly removes circulating unconjugated bilirubin and maternal antibodies while correcting severe hemolysis."
+      },
+      {
+        "id": "C",
+        "text": "Sensorineural hearing loss is a permanent sequela of kernicterus",
+        "answer": true,
+        "explanation": "True. Bilirubin neurotoxicity selectively damages the auditory nerve and cochlear nuclei, making auditory neuropathy spectrum disorder and sensorineural deafness the classic hallmark of kernicterus."
+      },
+      {
+        "id": "D",
+        "text": "Choreoathetoid cerebral palsy is the typical motor sequela",
+        "answer": true,
+        "explanation": "True. Neuronal necrosis and gliosis in the globus pallidus and subthalamic nuclei produce extrapyramidal/dyskinetic (choreoathetoid) cerebral palsy in survivors."
+      },
+      {
+        "id": "E",
+        "text": "Brain MRI classically demonstrates T1/T2 hyperintensity in the globus pallidus",
+        "answer": true,
+        "explanation": "True. Bilateral symmetrical hyperintensity in the globus pallidus and subthalamic nuclei on T1 (acute) and T2 (chronic) MRI is the classic neuroimaging finding of kernicterus."
+      }
+    ],
+    "clinical_summary": "Kernicterus (Bilirubin Encephalopathy): Phase 1 (Acute early): lethargy, hypotonia, poor suck, high-pitched cry; Phase 2 (Intermediate): retrocollis, opisthotonus, fever, irritability; Phase 3 (Advanced/Irreversible): seizures, coma, apnea. Chronic tetrad: Choreoathetoid cerebral palsy, Sensorineural hearing loss, Upward gaze palsy (Parinaud syndrome), and Dental enamel hypoplasia.",
+    "original_notes": "CMDA Q2: 15DOL neonate in NICU. Kernicterus sequelae, EBT indication."
+  },
+  {
+    "id": "card_046",
+    "page": 22,
+    "deck": "CMDA Picture Test",
+    "category": "Pediatric Surgery & Congenital Anomalies",
+    "title": "Congenital Diaphragmatic Hernia (CDH)",
+    "vignette": "A 7-day-old female neonate presents with severe respiratory distress, scaphoid abdomen, barrel-shaped chest, and bowel sounds audible over the left hemithorax:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "Bochdalek hernia (posterolateral defect) is the commonest subtype",
+        "answer": true,
+        "explanation": "True. Left-sided posterolateral Bochdalek hernia accounts for 85-90% of congenital diaphragmatic hernia cases, resulting from failure of closure of the pleuroperitoneal canal at 8-10 weeks of gestation."
+      },
+      {
+        "id": "B",
+        "text": "Persistent pulmonary hypertension of the newborn (PPHN) determines survival",
+        "answer": true,
+        "explanation": "True. Secondary pulmonary hypoplasia with hyper-muscularized pulmonary arterial arterioles causes severe, refractory pulmonary hypertension (right-to-left shunting), which is the major cause of death in CDH."
+      },
+      {
+        "id": "C",
+        "text": "Bag-mask ventilation is the preferred initial airway management",
+        "answer": false,
+        "explanation": "False. Mask ventilation is STRICTLY CONTRAINDICATED as it inflates herniated intrathoracic stomach and bowel, worsening mediastinal shift and causing immediate cardiac arrest. Immediate endotracheal intubation and orogastric suction are mandatory."
+      },
+      {
+        "id": "D",
+        "text": "Scaphoid abdomen is a cardinal physical finding",
+        "answer": true,
+        "explanation": "True. Because the stomach, small bowel, and spleen have herniated into the pleural cavity, the abdominal cavity is relatively empty, presenting clinically as a sunken (scaphoid) abdomen."
+      },
+      {
+        "id": "E",
+        "text": "Emergency surgical repair should be done immediately upon delivery before medical stabilization",
+        "answer": false,
+        "explanation": "False. Historic practice of rush emergency surgery has been replaced by gentle ventilation, pulmonary vasodilator therapy (inhaled nitric oxide), and cardiovascular stabilization. Delayed surgery after stabilizing pulmonary hypertension (24-48 hours) dramatically improves survival."
+      }
+    ],
+    "clinical_summary": "Congenital Diaphragmatic Hernia (CDH): Left-sided (85%), right-sided (10-15%). Classic triad: Respiratory distress, Scaphoid abdomen, Dextroposition of heart sounds (heart pushed to right hemithorax) with bowel sounds in left chest. Initial management: Intubate immediately, place large-bore sump orogastric tube to suction, gentle lung-protective ventilation (avoid high peak pressures), inhaled Nitric Oxide (iNO) for PPHN.",
+    "original_notes": "CMDA Q4: CDH. Posterolateral Bochdalek, scaphoid abdomen, avoid bag-mask ventilation!"
+  },
+  {
+    "id": "card_047",
+    "page": 25,
+    "deck": "CMDA Picture Test",
+    "category": "Neurology & Development",
+    "title": "Spinal Muscular Atrophy (Werdnig-Hoffmann Disease)",
+    "vignette": "Concerning this hypotonic infant with severe generalized muscle weakness, absent deep tendon reflexes, and tongue fasciculations:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "Children with SMA are often more alert and cognitively intelligent than peers",
+        "answer": true,
+        "explanation": "True. SMA specifically targets spinal alpha-motor neurons in the anterior horn cells while sparing cerebral cortical neurons. Affected infants are classically described as having bright, alert, engaging eyes with normal or above-average cognitive intellect."
+      },
+      {
+        "id": "B",
+        "text": "Type 1 (Werdnig-Hoffmann disease) is the commonest and most severe form",
+        "answer": true,
+        "explanation": "True. SMA Type 1 accounts for ~60% of all cases, presenting before 6 months of age with profound hypotonia, inability to sit independently, bell-shaped chest, paradoxical breathing, and respiratory failure within 2 years without treatment."
+      },
+      {
+        "id": "C",
+        "text": "Ocular and extraocular eye muscles are characteristically spared",
+        "answer": true,
+        "explanation": "True. Extraocular eye muscles (cranial nerves III, IV, VI) and sensory pathways are completely spared, allowing bright eye contact and communicative tracking."
+      },
+      {
+        "id": "D",
+        "text": "Type 3 patients are classified as non-sitters",
+        "answer": false,
+        "explanation": "False. By definition: Type 1 = 'Non-sitters' (never achieve independent sitting); Type 2 = 'Sitters' (can sit independently but cannot walk); Type 3 (Kugelberg-Welander) = 'Walkers' (able to walk independently, though may lose ambulation later)."
+      },
+      {
+        "id": "E",
+        "text": "Tongue fasciculations are a classical physical finding",
+        "answer": true,
+        "explanation": "True. Degeneration of cranial nerve XII motor nuclei in the medulla produces fine, undulating fasciculations and atrophy of the resting tongue in the floor of the mouth, pathognomonic of lower motor neuron degeneration."
+      }
+    ],
+    "clinical_summary": "Spinal Muscular Atrophy (SMA) is an autosomal recessive neuromuscular disorder caused by homozygous deletion or mutation of the SMN1 gene on chromosome 5q13. Cardinal signs: profound symmetric proximal flaccid weakness (legs > arms), absent deep tendon reflexes, bell-shaped chest, paradoxical diaphragmatic breathing, spared diaphragm, tongue fasciculations, and alert facies. Disease-modifying therapies: Nusinersen (antisense oligonucleotide) and Onasemnogene abeparvovec (gene therapy).",
+    "original_notes": "CMDA Q7: SMA. Type 1 Werdnig-Hoffmann, Type 3 are walkers (F for non-sitters), tongue fasciculations."
+  },
+  {
+    "id": "card_048",
+    "page": 28,
+    "deck": "CMDA Picture Test",
+    "category": "Neurology & Development",
+    "title": "Developmental Milestones: 9-Month-Old Infant",
+    "vignette": "Concerning developmental milestone assessment of a healthy 9-month-old infant brought to the well-child clinic:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "The infant should be able to wave 'bye-bye'",
+        "answer": true,
+        "explanation": "True. Waving 'bye-bye', playing peek-a-boo, and imitating gestures are classic social/cognitive milestones achieved between 8 and 10 months of age (median 9 months)."
+      },
+      {
+        "id": "B",
+        "text": "A body weight of 8.5 kg is appropriate for age",
+        "answer": true,
+        "explanation": "True. Birth weight (average 3.0-3.5 kg) triples by 12 months (~9-10 kg). At 9 months, an average weight of 8.0 - 9.0 kg is exactly on the 50th centile."
+      },
+      {
+        "id": "C",
+        "text": "Can perform hand-to-hand transfer of objects",
+        "answer": true,
+        "explanation": "True. Hand-to-hand transfer of toys emerges at 6 months and is fluent and well-established by 7-9 months, along with emerging inferior pincer grasp."
+      },
+      {
+        "id": "D",
+        "text": "Dentition typically shows at least 2 primary teeth",
+        "answer": true,
+        "explanation": "True. Primary tooth eruption begins around 6 months with the lower central incisors (rule: number of teeth = age in months - 6). By 9 months, infants typically have 2 to 4 primary teeth."
+      },
+      {
+        "id": "E",
+        "text": "The infant is not yet due for Yellow Fever vaccine in the national schedule",
+        "answer": true,
+        "explanation": "True. In endemic countries and EPI schedules, the live attenuated Yellow Fever vaccine and Measles 1st dose are administered at 9 completed months of age."
+      }
+    ],
+    "clinical_summary": "9-Month Milestone Check: Gross Motor: sits steadily without support, pulls to stand, crawls/creeps; Fine Motor: unrefined inferior pincer grasp, bangs two cubes together, transfers objects hand-to-hand; Language: polysyllabic babbling ('baba', 'dada' non-specific), responds to name; Social: stranger anxiety, waves bye-bye, plays peek-a-boo. Immunizations at 9 months: Measles-1, Yellow Fever, Vitamin A 100,000 IU.",
+    "original_notes": "CMDA Q10: 9-month developmental milestones. Waving bye-bye, pincer grasp, dentition."
+  },
+  {
+    "id": "card_049",
+    "page": 30,
+    "deck": "Emergency & Instruments",
+    "category": "Nephrology & Urology",
+    "title": "Dual-Lumen Hemodialysis Catheter in Children",
+    "vignette": "Concerning the vascular access device shown (Dual-lumen central venous catheter for pediatric hemodialysis):",
+    "statements": [
+      {
+        "id": "A",
+        "text": "Catheter-related bloodstream infection is a major recognised complication",
+        "answer": true,
+        "explanation": "True. Large-bore central catheters in uremic, immunocompromised children have high rates of colonization and intraluminal bacteremia (primarily Staphylococcus aureus and coagulase-negative Staph)."
+      },
+      {
+        "id": "B",
+        "text": "Associated with decreased appetite during dialyzer therapy",
+        "answer": true,
+        "explanation": "True. Systemic inflammatory activation, dialysate contact, and uremic disequilibrium can trigger anorexia, nausea, and post-dialysis fatigue."
+      },
+      {
+        "id": "C",
+        "text": "Treatment can lead to acute intradialytic hypotension",
+        "answer": true,
+        "explanation": "True. Excessive or rapid ultrafiltration exceeding plasma refilling rate causes intravascular volume contraction, manifesting as intradialytic hypotension, cramping, and dizziness."
+      },
+      {
+        "id": "D",
+        "text": "Respiratory embarrassment (pneumothorax/hemothorax) is a known insertion complication",
+        "answer": true,
+        "explanation": "True. Percutaneous internal jugular or subclavian vein cannulation carries procedural risks of apical pleura puncture causing pneumothorax or accidental subclavian artery laceration causing hemothorax."
+      },
+      {
+        "id": "E",
+        "text": "Right internal jugular vein is the preferred anatomical site for insertion",
+        "answer": true,
+        "explanation": "True. The right internal jugular vein offers a direct, straight anatomical path into the superior vena cava and right atrium, providing optimal blood flow rates and lowest risk of central venous stenosis or thrombosis."
+      }
+    ],
+    "clinical_summary": "Temporary Hemodialysis Access in Children: Dual-lumen non-cuffed catheters for acute kidney injury; cuffed, tunneled catheters (Permcath) for long-term bridge to arteriovenous fistula. Complications: Early (arterial puncture, pneumothorax, air embolism, cardiac arrhythmia); Late (catheter-related bloodstream infection, fibrin sheath formation, central venous stenosis, catheter thrombosis).",
+    "original_notes": "CMDA Q12: Double lumen catheter for hemodialysis. Infection risk, hypotension, right internal jugular."
+  },
+  {
+    "id": "card_050",
+    "page": 31,
+    "deck": "Emergency & Instruments",
+    "category": "Respiratory & Pulmonology",
+    "title": "Metered Dose Inhaler (MDI) with Valved Holding Chamber (Spacer)",
+    "vignette": "Concerning the respiratory drug delivery system shown (MDI with spacer and facemask):",
+    "statements": [
+      {
+        "id": "A",
+        "text": "The spacer device should be cleaned fortnightly with abrasive scrubbing",
+        "answer": false,
+        "explanation": "False. Spacers should be washed weekly in warm water with mild household detergent, rinsed, and allowed to AIR DRY without wiping. Scrubbing or rubbing with a dry cloth generates electrostatic charge on plastic walls, which attracts and traps aerosolized drug particles, reducing lung deposition."
+      },
+      {
+        "id": "B",
+        "text": "The actuator should be rinsed thoroughly under warm running water weekly",
+        "answer": true,
+        "explanation": "True. Weekly rinsing of the plastic actuator prevents crystallization and blockage of the tiny exit orifice by medication residue."
+      },
+      {
+        "id": "C",
+        "text": "Serum potassium should be monitored during frequent high-dose salbutamol therapy",
+        "answer": true,
+        "explanation": "True. Salbutamol activates the Na+/K+ ATPase pump, shifting potassium intracellularly and predisposing to clinically significant hypokalemia and cardiac arrhythmias during intensive asthma treatment."
+      },
+      {
+        "id": "D",
+        "text": "Beta-2 agonists may cause fine muscle tremor and tachycardia",
+        "answer": true,
+        "explanation": "True. Stimulation of beta-2 adrenergic receptors in skeletal muscles causes fine peripheral tremors, and beta-1/beta-2 crossover causes reflex tachycardia and palpitations."
+      },
+      {
+        "id": "E",
+        "text": "Drug actuation should be synchronised with inhalation, not expiration",
+        "answer": true,
+        "explanation": "True. Actuation into the chamber must occur just prior to or at the start of slow, deep inspiration (or followed by 5-6 tidal breaths with a tight-fitting mask). Actuating during expiration blows the aerosol out of the chamber."
+      }
+    ],
+    "clinical_summary": "Inhaled Medication Delivery: Metered Dose Inhaler (MDI) + Spacer delivers superior or equal lung deposition compared to nebulizers with fewer systemic side effects. In children <4 years, use MDI + spacer + tight facemask (tidal breathing for 5-6 breaths per puff). Never actuate multiple puffs simultaneously into the chamber (actuate one puff at a time). Clean spacer in detergent and drip-dry to eliminate static electricity.",
+    "original_notes": "CMDA Q13: MDI and spacer. Weekly wash (not fortnightly), air dry, hypokalemia monitoring."
+  },
+  {
+    "id": "card_051",
+    "page": 34,
+    "deck": "CMDA Picture Test",
+    "category": "Oncology & Hematology",
+    "title": "Hodgkin Lymphoma & Reed-Sternberg Cells",
+    "vignette": "Concerning the histopathological and clinical presentation of Hodgkin Lymphoma shown:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "Reed-Sternberg cells are pathognomonic on lymph node biopsy",
+        "answer": true,
+        "explanation": "True. Giant, multinucleated or bilobed B-cells with prominent eosinophilic inclusion-like nucleoli ('owl's eyes' appearance) surrounded by a polymorphous reactive inflammatory background are pathognomonic for Hodgkin lymphoma."
+      },
+      {
+        "id": "B",
+        "text": "It is rare in children less than 5-10 years of age in industrialized nations",
+        "answer": true,
+        "explanation": "True. In developed nations, Hodgkin lymphoma exhibits a bimodal age peak (15-30 years and >55 years), making it uncommon in children <10 years. In developing countries, an earlier peak occurs in young boys (5-8 years, often EBV-associated)."
+      },
+      {
+        "id": "C",
+        "text": "Painless, firm, non-tender cervical lymphadenopathy is the commonest presentation",
+        "answer": true,
+        "explanation": "True. Over 70-80% of children present with persistent, rubbery, painless cervical or supraclavicular lymph node enlargement that fails to respond to antibiotics."
+      },
+      {
+        "id": "D",
+        "text": "Systemic B symptoms include unexplained fever >38\u00b0C, drenching night sweats, and >10% weight loss",
+        "answer": true,
+        "explanation": "True. Presence of 'B symptoms' indicates higher tumor burden, altered cytokine release (IL-1, IL-6, TNF), and warrants more intensive systemic chemotherapy."
+      },
+      {
+        "id": "E",
+        "text": "The nodular sclerosing subtype is the commonest histological variant in adolescents",
+        "answer": true,
+        "explanation": "True. Nodular Sclerosis Hodgkin Lymphoma (NSHL), characterized by collagenous fibrotic bands circumscribing lymphoid nodules with lacunar Reed-Sternberg cells, represents >70% of pediatric and adolescent cases."
+      }
+    ],
+    "clinical_summary": "Hodgkin Lymphoma vs Non-Hodgkin Lymphoma: Hodgkin spreads contiguously along nodal chains (cervical -> mediastinal -> para-aortic); NHL is non-contiguous with frequent extranodal/marrow involvement. Ann Arbor Staging: Stage I (single node region), Stage II (>=2 regions on same side of diaphragm), Stage III (both sides of diaphragm), Stage IV (diffuse extranodal organ involvement). 5-year survival in children exceeds 90-95% with risk-adapted chemotherapy (ABVD / OEPA-COPDAC) and low-dose radiation.",
+    "original_notes": "CMDA Q16: Reed Sternberg cells. Hodgkin lymphoma. Rare <10yo, B symptoms, nodular sclerosing."
+  },
+  {
+    "id": "card_052",
+    "page": 35,
+    "deck": "CMDA Picture Test",
+    "category": "Neurology & Development",
+    "title": "Acute Bacterial Meningitis: CSF Analysis",
+    "vignette": "An 18-month-old infant presents with high fever, neck stiffness, Kernig's sign, irritability, and altered consciousness. CSF analysis is performed:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "Marked pleocytosis with neutrophil predominance (>80%) is characteristic of acute bacterial meningitis",
+        "answer": true,
+        "explanation": "True. Acute pyogenic bacterial infection elicits intense neutrophilic migration into the subarachnoid space, producing marked WBC elevation (typically 1,000 - 10,000+ cells/uL with >80% polymorphs)."
+      },
+      {
+        "id": "B",
+        "text": "CSF-to-serum glucose ratio of <0.4 is a classic diagnostic hallmark",
+        "answer": true,
+        "explanation": "True. Bacterial consumption of glucose and impaired carrier-mediated hexose transport across the blood-brain barrier cause profound hypoglycorrhachia (CSF glucose <2.2 mmol/L or CSF/serum ratio <0.4)."
+      },
+      {
+        "id": "C",
+        "text": "CSF protein concentration is characteristically elevated (>1.0 g/L)",
+        "answer": true,
+        "explanation": "True. Breakdown of the blood-brain barrier and leukocyte autolysis dramatically increase CSF protein concentration (often 1.0 - 5.0 g/L; normal is 0.15 - 0.45 g/L)."
+      },
+      {
+        "id": "D",
+        "text": "Empirical antimicrobial treatment should be delayed until culture results return in 48 hours",
+        "answer": false,
+        "explanation": "False. Bacterial meningitis is an extreme medical emergency. Delays of even a few hours increase mortality and permanent neurological sequelae. Empirical IV Ceftriaxone/Cefotaxime (+ Vancomycin +/- Ampicillin for Listeria in neonates) must be administered immediately after LP (or even before LP if CT scan or resuscitation delays the tap)."
+      },
+      {
+        "id": "E",
+        "text": "Adjunctive Dexamethasone reduces the risk of sensorineural hearing loss in Hib and pneumococcal meningitis",
+        "answer": true,
+        "explanation": "True. IV Dexamethasone (0.15 mg/kg Q6H given before or with the first dose of antibiotics) suppresses inflammatory cytokine release (TNF-alpha, IL-1beta), significantly reducing sensorineural hearing loss in H. influenzae type b and pneumococcal meningitis."
+      }
+    ],
+    "clinical_summary": "CSF Differentiation in Pediatrics: 1) Bacterial: Turbid/purulent, Opening pressure high, WBC 1,000-10,000+ (>80% PMNs), Protein high (>1 g/L), Glucose low (<40% serum); 2) Viral: Clear, normal/mild pressure, WBC 10-500 (lymphocytes), Protein normal/mildly elevated (<1 g/L), Glucose normal; 3) Tuberculous: Fibrin web/pellicle, WBC 100-500 (lymphocytes), Protein markedly high (1-5 g/L), Glucose markedly low. Contraindications to immediate LP: Signs of raised ICP (focal signs, papilledema), cardiovascular instability, skin infection at LP site, or severe coagulopathy.",
+    "original_notes": "CMDA Q17 & Page 55: Bacterial meningitis CSF. Neutrophils, low glucose, high protein, dexamethasone."
+  },
+  {
+    "id": "card_053",
+    "page": 37,
+    "deck": "CMDA Picture Test",
+    "category": "Cardiology & Congenital Heart Disease",
+    "title": "Pericardial Effusion & Cardiac Tamponade",
+    "vignette": "Concerning the chest radiograph and echocardiogram shown in an 8-year-old presenting with dyspnea, orthopnea, and distant heart sounds:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "The chest radiograph demonstrates a classic 'water-bottle' cardiac silhouette",
+        "answer": true,
+        "explanation": "True. Symmetrical, globular, massive cardiomegaly with sharp distinct cardiac margins and clear lung fields produces the characteristic 'water bottle' or 'pear-shaped' silhouette of large pericardial effusion."
+      },
+      {
+        "id": "B",
+        "text": "Beck's triad consists of hypotension, jugular venous distension, and muffled heart sounds",
+        "answer": true,
+        "explanation": "True. Beck's triad is the pathognomonic clinical sign of acute cardiac tamponade resulting from pericardial fluid under tension restricting diastolic ventricular filling."
+      },
+      {
+        "id": "C",
+        "text": "Pulsus paradoxus is defined as an inspiratory systolic pressure drop greater than 10 mmHg",
+        "answer": true,
+        "explanation": "True. Increased venous return during inspiration distends the right ventricle, causing the interventricular septum to bow into the left ventricle inside the rigid pericardium, exaggerating the normal inspiratory blood pressure drop beyond 10 mmHg."
+      },
+      {
+        "id": "D",
+        "text": "Tuberculous pericarditis is a leading etiology in developing nations",
+        "answer": true,
+        "explanation": "True. Mycobacterium tuberculosis accounts for over 70% of large pericardial effusions in sub-Saharan Africa, often leading to subacute constrictive pericarditis if untreated."
+      },
+      {
+        "id": "E",
+        "text": "Urgent pericardiocentesis is indicated in hemodynamic compromise",
+        "answer": true,
+        "explanation": "True. In the presence of cardiac tamponade (hypotension, pulsus paradoxus, elevated JVP), emergency subxiphoid needle pericardiocentesis is lifesaving."
+      }
+    ],
+    "clinical_summary": "Cardiac Tamponade Emergency: Fluid accumulation in the inelastic pericardial space increases intrapericardial pressure above ventricular filling pressures. Cardinal signs: Beck's triad (muffled heart sounds, hypotension, raised JVP), pulsus paradoxus, electrical alternans on ECG, and diastolic right ventricular collapse on echocardiography. Immediate treatment: Subxiphoid pericardiocentesis with echoguided needle aspiration.",
+    "original_notes": "CMDA Q19: Pericardial effusion. Water bottle heart, Beck's triad, pericardiocentesis."
+  },
+  {
+    "id": "card_054",
+    "page": 42,
+    "deck": "Neonatal & Pathology",
+    "category": "Infectious Diseases & Tropical Medicine",
+    "title": "Ophthalmia Neonatorum (Neonatal Conjunctivitis)",
+    "vignette": "Concerning acute conjunctivitis with purulent eye discharge developing in a newborn during the first month of life:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "Prematurity and prolonged rupture of membranes are predisposing factors",
+        "answer": true,
+        "explanation": "True. Prematurity, prolonged rupture of membranes (>18 hours), and maternal untreated cervicovaginal infection significantly increase the risk of vertical transmission during passage through the birth canal."
+      },
+      {
+        "id": "B",
+        "text": "Neisseria gonorrhoeae classically presents between day 2 and day 5 of life with hyperacute copious purulent discharge",
+        "answer": true,
+        "explanation": "True. Gonococcal ophthalmia neonatorum presents early (2-5 days) with eyelid chemosis and profuse, copious purulent exudate under tension. It can penetrate intact corneal epithelium within 24-48 hours, causing corneal perforation and permanent blindness."
+      },
+      {
+        "id": "C",
+        "text": "Chlamydia trachomatis is the commonest overall infectious cause worldwide",
+        "answer": true,
+        "explanation": "True. Chlamydia trachomatis (serovars D-K) is the most frequent identifiable infectious agent, typically presenting later (5-14 days of life) with milder, mucopurulent discharge."
+      },
+      {
+        "id": "D",
+        "text": "Oral Erythromycin (or Azithromycin) is required to treat Chlamydial conjunctivitis and prevent Chlamydial pneumonia",
+        "answer": true,
+        "explanation": "True. Topical ophthalmic treatment alone fails to eradicate nasopharyngeal chlamydial colonization; oral macrolide therapy (erythromycin 50 mg/kg/day for 14 days or azithromycin) is mandatory to cure conjunctivitis and prevent afebrile staccato cough infantile pneumonia."
+      },
+      {
+        "id": "E",
+        "text": "Silver nitrate 1% drops are used to treat active corneal ulceration",
+        "answer": false,
+        "explanation": "False. Silver nitrate (Cred\u00e9 prophylaxis) is used exclusively as prophylactic drops at birth to prevent gonococcal infection. It is toxic to inflamed corneal tissue and is contraindicated as active treatment; high-dose systemic Ceftriaxone or Cefotaxime is required for active gonococcal infection."
+      }
+    ],
+    "clinical_summary": "Ophthalmia Neonatorum Timeline: 1) Chemical (0-24 hours): mild, self-limiting, secondary to silver nitrate; 2) Neisseria gonorrhoeae (2-5 days): hyperacute, copious thick pus, eyelid edema, risk of rapid corneal perforation (requires systemic IV/IM Ceftriaxone + saline eye flushes); 3) Chlamydia trachomatis (5-14 days): mucopurulent, pseudomembranes, risk of chlamydial pneumonia (requires oral erythromycin x 14 days); 4) Herpes Simplex (1-2 weeks): serosanguinous, vesicles, dendritic ulcers (requires IV acyclovir).",
+    "original_notes": "Page 42: Ophthalmia neonatorum. Chlamydia commonest, Gonococcal rapid, oral erythromycin."
+  },
+  {
+    "id": "card_055",
+    "page": 43,
+    "deck": "Neonatal & Pathology",
+    "category": "Neonatology & Perinatal",
+    "title": "Transient Tachypnea of the Newborn (TTN) vs Respiratory Distress Syndrome (RDS)",
+    "vignette": "Chest radiograph of a term neonate delivered via elective Cesarean section who develops tachypnea (respiratory rate 80 bpm) and mild grunting within 2 hours of birth:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "Elective Cesarean delivery without labor is a major risk factor for TTN",
+        "answer": true,
+        "explanation": "True. During active labor, catecholamine surges and mechanical thoracic squeezing trigger epithelial sodium channels (ENaC) to clear fetal alveolar fluid. Elective C-section bypasses these mechanisms, resulting in retained lung fluid ('wet lung')."
+      },
+      {
+        "id": "B",
+        "text": "The chest radiograph typically shows fluid in the interlobar fissures and prominent vascular markings",
+        "answer": true,
+        "explanation": "True. Hallmarks of TTN on CXR include prominent perihilar streaking, fluid within the horizontal fissure, cardiomegaly, and hyperinflation (flattened diaphragms)."
+      },
+      {
+        "id": "C",
+        "text": "Symptoms characteristically resolve within 24 to 72 hours with supportive care",
+        "answer": true,
+        "explanation": "True. As pulmonary lymphatic and venous channels reabsorb the retained lung fluid, clinical symptoms of TTN spontaneously resolve within 24-72 hours without long-term sequelae."
+      },
+      {
+        "id": "D",
+        "text": "RDS is characterised by surfactant deficiency and ground-glass appearance with air bronchograms",
+        "answer": true,
+        "explanation": "True. By contrast, true RDS (hyaline membrane disease) occurs predominantly in preterm infants (<34 weeks) due to dipalmitoylphosphatidylcholine surfactant deficiency, producing diffuse reticulogranular 'ground glass' opacities and air bronchograms."
+      },
+      {
+        "id": "E",
+        "text": "Immediate exogenous surfactant replacement is indicated for TTN",
+        "answer": false,
+        "explanation": "False. Surfactant production in TTN is entirely normal; the pathology is delayed fluid clearance. Surfactant administration has no role in TTN; management is supportive (humidified oxygen, CPAP if needed, and temporary withholding of oral feeds if RR >80 bpm)."
+      }
+    ],
+    "clinical_summary": "Neonatal Respiratory Distress Differentiation: 1) TTN (Wet Lung): Term/near-term, elective C-section, rapid onset, benign self-limiting course (<72h), fluid in fissures on CXR, supportive care; 2) RDS: Preterm (<34w), surfactant deficiency, progressive worsening, ground-glass CXR, managed with CPAP and intratracheal surfactant; 3) Meconium Aspiration: Post-term, patchy atelectasis, hyperinflation; 4) Congenital Pneumonia: PROM, maternal fever, asymmetric infiltrates.",
+    "original_notes": "Page 43: TTN vs RDS. Ground glass in RDS, C-section link for TTN, self-resolves in 72h."
+  },
+  {
+    "id": "card_056",
+    "page": 160,
+    "deck": "Paediatric Slide Quiz",
+    "category": "Respiratory & Pulmonology",
+    "title": "Pleural Effusion & Empyema Thoracis in a 10-Year-Old",
+    "vignette": "Chest radiograph of a 10-year-old boy presenting with high persistent fever, left-sided pleuritic chest pain, tachypnea, and stony dullness to percussion over the left lower zone:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "The radiograph demonstrates a left lower zone homogeneous opacity with meniscus sign",
+        "answer": true,
+        "explanation": "True. Free pleural fluid produces a dense, homogeneous opacity obscuring the left hemidiaphragm and costophrenic angle with a characteristic concave upper border ('Ellis's meniscus sign')."
+      },
+      {
+        "id": "B",
+        "text": "Stony dullness to percussion and absent vocal resonance over the opacity confirm fluid",
+        "answer": true,
+        "explanation": "True. Pleural fluid insulates the chest wall from acoustic vibrations, producing pathognomonic stony dullness to percussion and absent/diminished breath sounds and tactile fremitus."
+      },
+      {
+        "id": "C",
+        "text": "Staphylococcus aureus and Streptococcus pneumoniae are the leading bacterial causes",
+        "answer": true,
+        "explanation": "True. Parapneumonic effusion and empyema thoracis in children are predominantly secondary to bacterial pneumonia caused by S. pneumoniae, S. aureus (including MRSA), and Group A Streptococcus."
+      },
+      {
+        "id": "D",
+        "text": "Thoracocentesis fluid showing pH <7.2 and glucose <2.2 mmol/L indicates complicated parapneumonic effusion",
+        "answer": true,
+        "explanation": "True. Bacterial metabolism in complicated effusion/empyema drastically lowers pleural fluid pH (<7.2) and glucose (<40 mg/dL or <2.2 mmol/L) while driving LDH >1000 IU/L, indicating mandatory chest tube drainage."
+      },
+      {
+        "id": "E",
+        "text": "Intercostal chest tube drainage should be inserted at the 2nd intercostal space mid-clavicular line",
+        "answer": false,
+        "explanation": "False. The 2nd intercostal space midclavicular line is used for needle decompression of tension pneumothorax (air rises). For pleural fluid and empyema (fluid gravitates to bases), an intercostal chest tube (underwater seal) is inserted in the 4th or 5th intercostal space in the mid-axillary or anterior-axillary line within the 'safe triangle'."
+      }
+    ],
+    "clinical_summary": "Pleural Effusion / Empyema in Children: Stages: 1) Exudative stage (thin fluid, antibiotics often sufficient); 2) Fibrinopurulent stage (loculated pus, thick membranes, requires chest drain + intrapleural fibrinolytics like urokinase/tPA); 3) Organizing stage (fibrous pleural peel trapping lung, requires VATS or open decortication). Insertion triangle of safety: Anterior border of latissimus dorsi, lateral border of pectoralis major, apex below axilla, 5th intercostal space horizontal to nipple.",
+    "original_notes": "Pages 160-161: Left pleural effusion / empyema. S. aureus / S. pneumoniae. Meniscus sign."
+  },
+  {
+    "id": "card_057",
+    "page": 164,
+    "deck": "Paediatric Slide Quiz",
+    "category": "Neonatology & Perinatal",
+    "title": "Severe Neonatal Hyperbilirubinemia & Exchange Blood Transfusion (EBT)",
+    "vignette": "Study this laboratory report of a 3-day-old male infant with Total Serum Bilirubin of 24.5 mg/dL (unconjugated 23.0 mg/dL) and Hb of 9.2 g/dL with positive direct Coombs test:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "The laboratory profile is diagnostic of acute hemolytic disease of the newborn (Rh or ABO incompatibility)",
+        "answer": true,
+        "explanation": "True. The combination of early severe unconjugated hyperbilirubinemia (>20 mg/dL on day 3), anemia (Hb 9.2 g/dL), and positive direct Coombs test (DAT) confirms immune-mediated isoimmune hemolysis."
+      },
+      {
+        "id": "B",
+        "text": "Double volume exchange blood transfusion is urgently indicated",
+        "answer": true,
+        "explanation": "True. AAP guidelines mandate immediate double-volume exchange blood transfusion (EBT) when serum bilirubin exceeds 20 mg/dL in hemolytic disease to prevent acute kernicterus."
+      },
+      {
+        "id": "C",
+        "text": "Double volume exchange removes approximately 85-90% of circulating red blood cells",
+        "answer": true,
+        "explanation": "True. An exchange transfusion using twice the infant's blood volume (2 x 80-85 mL/kg = 160-170 mL/kg) replaces ~85% of antibody-coated fetal erythrocytes and removes ~50% of extravascular bilirubin."
+      },
+      {
+        "id": "D",
+        "text": "Fresh donor blood (<5-7 days old) is preferred to avoid hyperkalemia and low 2,3-DPG",
+        "answer": true,
+        "explanation": "True. Stored older blood leaks potassium from lysed cells (risking lethal cardiac arrest) and depletes 2,3-DPG (shifting oxygen dissociation curve left and impairing tissue oxygen delivery)."
+      },
+      {
+        "id": "E",
+        "text": "Calcium gluconate 10% should be administered periodically during the exchange transfusion",
+        "answer": true,
+        "explanation": "True. Citrate in CPDA-1 donor blood bags chelates ionized calcium, precipitating acute hypocalcemia and cardiac arrhythmias; 1 mL of 10% calcium gluconate is routinely given for every 100 mL of blood exchanged."
+      }
+    ],
+    "clinical_summary": "Exchange Blood Transfusion (EBT) Procedure: Access via umbilical vein catheter (inserted 3-5 cm until free blood flow, tip above IVC). Use push-pull technique (aliquots of 5 mL/kg, usually 10-20 mL per pass over 90-120 minutes). Complications: Hypocalcemia (citrate toxicity), Hyperkalemia, Hypoglycemia (post-exchange rebound), Thrombocytopenia, Air embolism, Portal vein thrombosis, and NEC.",
+    "original_notes": "Pages 164-165: Exchange blood transfusion. Double volume, Coombs positive, calcium gluconate."
+  },
+  {
+    "id": "card_058",
+    "page": 172,
+    "deck": "Paediatric Slide Quiz",
+    "category": "Neurology & Development",
+    "title": "Absence (Petit Mal) Epilepsy & EEG Features",
+    "vignette": "A 7-year-old girl is brought by her teacher because of frequent episodes of sudden blank staring and unresponsiveness lasting 5-10 seconds, occurring up to 30 times a day with immediate recovery:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "The clinical history is characteristic of Childhood Absence Epilepsy",
+        "answer": true,
+        "explanation": "True. Sudden, brief (5-15 second) lapses of consciousness with vacant stare, subtle eyelid fluttering, no loss of postural tone, and immediate return to baseline without postictal confusion are pathognomonic for absence seizures."
+      },
+      {
+        "id": "B",
+        "text": "The diagnostic EEG shows generalized 3 Hz spike-and-slow-wave complexes",
+        "answer": true,
+        "explanation": "True. Synchronous, symmetrical, generalized 3 Hz (cycles per second) spike-and-wave discharges arising from thalamocortical circuitry are the diagnostic hallmark on electroencephalography."
+      },
+      {
+        "id": "C",
+        "text": "Episodes can be reliably triggered in the clinic by hyperventilation for 2-3 minutes",
+        "answer": true,
+        "explanation": "True. Voluntary hyperventilation for 2-3 minutes induces respiratory alkalosis and cerebral vasoconstriction, provoking a clinical absence seizure and 3 Hz spike-wave discharges in >90% of untreated patients."
+      },
+      {
+        "id": "D",
+        "text": "Ethosuximide is the first-line medication of choice",
+        "answer": true,
+        "explanation": "True. Ethosuximide (which blocks T-type voltage-gated calcium channels in thalamic relay neurons) is the drug of choice for pure absence epilepsy, possessing equal efficacy and superior tolerability compared to sodium valproate."
+      },
+      {
+        "id": "E",
+        "text": "Carbamazepine is an effective first-line treatment",
+        "answer": false,
+        "explanation": "False. Carbamazepine, phenytoin, and vigabatrin are CONTRAINDICATED in absence epilepsy because sodium-channel blockers paradoxical worsen and exacerbate absence seizures and can precipitate absence status epilepticus!"
+      }
+    ],
+    "clinical_summary": "Absence Seizures vs Complex Partial Seizures: Absence: Duration 5-15s, immediate recovery, NO postictal confusion, 3 Hz spike-wave on EEG, hyperventilation triggers it, treated with Ethosuximide or Sodium Valproate. Complex Partial: Duration 1-3 minutes, preceded by aura, prominent automatisms, postictal confusion/drowsiness, temporal lobe spikes on EEG, treated with Carbamazepine/Levetiracetam.",
+    "original_notes": "Pages 172-173: Petit mal epilepsy. 3 Hz spike and wave. Ethosuximide. Carbamazepine worsens it."
+  },
+  {
+    "id": "card_059",
+    "page": 174,
+    "deck": "Paediatric Slide Quiz",
+    "category": "Neonatology & Perinatal",
+    "title": "Hyaline Membrane Disease (HMD) / Respiratory Distress Syndrome",
+    "vignette": "Concerning Hyaline Membrane Disease (Neonatal RDS) in a 29-week preterm infant weighing 1.2 kg:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "Surfactant deficiency is the primary underlying pathophysiology",
+        "answer": true,
+        "explanation": "True. Insufficient production and secretion of pulmonary surfactant by immature type II alveolar pneumocytes leads to high alveolar surface tension, progressive end-expiratory atelectasis, and ventilation-perfusion mismatch."
+      },
+      {
+        "id": "B",
+        "text": "Antenatal corticosteroid therapy to the mother significantly reduces its incidence",
+        "answer": true,
+        "explanation": "True. Maternal administration of betamethasone or dexamethasone in threatened preterm labor (24-34 weeks gestation) accelerates fetal lung maturation and surfactant synthesis, reducing RDS, IVH, and neonatal mortality by nearly 50%."
+      },
+      {
+        "id": "C",
+        "text": "Nasal Continuous Positive Airway Pressure (CPAP) is preferred over routine prophylactic intubation",
+        "answer": true,
+        "explanation": "True. Early application of nasal CPAP (5-7 cm H2O) keeps alveoli open at end-expiration, reduces work of breathing, and prevents ventilator-induced lung injury (VILI), avoiding mechanical intubation in many preterms."
+      },
+      {
+        "id": "D",
+        "text": "Lecithin-to-Sphingomyelin (L/S) ratio in amniotic fluid >2.0 indicates mature fetal lungs",
+        "answer": true,
+        "explanation": "True. A mature L/S ratio of >=2.0 indicates adequate alveolar surfactant synthesis and a negligible risk of developing RDS."
+      },
+      {
+        "id": "E",
+        "text": "Bronchopulmonary dysplasia (BPD) is an acute complication resolving within 48 hours",
+        "answer": false,
+        "explanation": "False. Bronchopulmonary dysplasia is a CHRONIC lung disease of prematurity defined as ongoing oxygen requirement at 36 weeks post-menstrual age resulting from barotrauma, volutrauma, and oxygen toxicity on developing lungs."
+      }
+    ],
+    "clinical_summary": "Hyaline Membrane Disease (RDS): Surfactant consists of 90% lipids (dipalmitoylphosphatidylcholine - DPPC) and 10% proteins (SP-A, SP-B, SP-C, SP-D). Clinical features within hours of birth: tachypnea, expiratory grunting (partial glottic closure to maintain intrinsic PEEP), intercostal/subcostal retractions, cyanosis. CXR: diffuse reticulogranular pattern with air bronchograms. Treatment: Early CPAP, non-invasive surfactant administration (LISA/MIST technique).",
+    "original_notes": "Pages 174-175: Hyaline membrane disease. Surfactant deficiency, antenatal steroids, CPAP."
+  },
+  {
+    "id": "card_060",
+    "page": 176,
+    "deck": "Paediatric Slide Quiz",
+    "category": "Respiratory & Pulmonology",
+    "title": "Acute Epiglottitis: Pediatric Airway Emergency",
+    "vignette": "A 3-year-old unimmunized boy presents in severe respiratory distress, sitting bolt upright with chin thrust forward, mouth open, drooling saliva, and refusing to lie down:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "The patient is adopting the classic 'tripod position'",
+        "answer": true,
+        "explanation": "True. Sitting upright, leaning forward with neck hyperextended, chin thrust forward, and resting on extended arms (the 'tripod' or 'sniffing' posture) anatomically optimizes airway patency through the swollen supraglottic tissues."
+      },
+      {
+        "id": "B",
+        "text": "Haemophilus influenzae type b (Hib) was historically the most common causative organism",
+        "answer": true,
+        "explanation": "True. Prior to conjugate Hib vaccination, H. influenzae type b caused >90% of cases. In unimmunized populations or post-vaccine era, Hib remains critical, alongside Streptococcus pyogenes and S. pneumoniae."
+      },
+      {
+        "id": "C",
+        "text": "Direct visualization of the pharynx with a tongue blade should be attempted immediately in the triage area",
+        "answer": false,
+        "explanation": "False. Placing a tongue depressor into the mouth of a child with suspected epiglottitis is strictly CONTRAINDICATED because tactile stimulation of the inflamed supraglottic region can provoke immediate, fatal laryngospasm and cardiac arrest. Airway examination should occur only in the operating room with an anesthesiologist ready for emergency intubation/tracheostomy."
+      },
+      {
+        "id": "D",
+        "text": "Lateral neck radiograph demonstrates the pathognomonic 'thumbprint sign'",
+        "answer": true,
+        "explanation": "True. A soft-tissue lateral neck X-ray reveals a swollen, rounded, enlarged epiglottis resembling an adult thumb (the 'thumbprint sign'), obliterating the vallecula."
+      },
+      {
+        "id": "E",
+        "text": "Ceftriaxone or Cefotaxime IV is the empirical antibiotic of choice",
+        "answer": true,
+        "explanation": "True. Third-generation cephalosporins (IV Ceftriaxone or Cefotaxime) provide bactericidal coverage against beta-lactamase-producing Hib and invasive streptococci."
+      }
+    ],
+    "clinical_summary": "Acute Epiglottitis: The 4 D's: Drooling, Dysphagia, Dysphonia (muffled 'hot potato' voice), Distress. High fever, rapid progression (hours), absence of barking cough (unlike croup). Airway management: Transfer immediately to OR with ENT surgeon and pediatric anesthesiologist. Secure endotracheal tube (usually 0.5-1 size smaller). IV Ceftriaxone for 7-10 days.",
+    "original_notes": "Pages 176-177: Epiglottitis. Tripod posture, thumb sign, DO NOT use tongue depressor!"
+  },
+  {
+    "id": "card_061",
+    "page": 178,
+    "deck": "Paediatric Slide Quiz",
+    "category": "Cardiology & Congenital Heart Disease",
+    "title": "Tetralogy of Fallot (TOF) & Hypercyanotic 'Tet' Spells",
+    "vignette": "Concerning Tetralogy of Fallot (TOF) in an 18-month-old child presenting with chronic cyanosis, squatting, and sudden paroxysmal episodes of deep cyanosis and hyperpnea:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "The classic anatomical tetrad includes VSD, pulmonary stenosis, overriding aorta, and right ventricular hypertrophy",
+        "answer": true,
+        "explanation": "True. Anterocephalad deviation of the outlet (infundibular) septum during embryogenesis causes: 1) Malalignment ventricular septal defect (VSD), 2) Right ventricular outflow tract obstruction (subpulmonic/pulmonic stenosis), 3) Overriding aorta, and 4) Right ventricular hypertrophy (RVH)."
+      },
+      {
+        "id": "B",
+        "text": "The chest radiograph classically reveals a 'boot-shaped' heart (coeur en sabot)",
+        "answer": true,
+        "explanation": "True. RVH elevates the cardiac apex above the diaphragm, and pulmonary infundibular hypoplasia produces a concavity at the main pulmonary artery segment, creating the classic 'boot-shaped' heart."
+      },
+      {
+        "id": "C",
+        "text": "Squatting relieves cyanosis by increasing systemic vascular resistance (SVR)",
+        "answer": true,
+        "explanation": "True. Squatting kinks the femoral arteries and veins, increasing systemic vascular resistance (SVR) and reducing right-to-left shunting across the VSD, forcing more desaturated blood through the stenotic pulmonary outflow tract into the lungs."
+      },
+      {
+        "id": "D",
+        "text": "Knee-chest position and Morphine are first-line emergency steps during a hypercyanotic spell",
+        "answer": true,
+        "explanation": "True. Acute management of a 'Tet spell': 1) Knee-chest position (increases SVR), 2) High-flow 100% O2, 3) IV Morphine (0.1-0.2 mg/kg, calms the child and relaxes infundibular spasm), 4) IV fluid bolus, 5) Propranolol or Esmolol (beta-blocker), and 6) IV Phenylephrine if refractory."
+      },
+      {
+        "id": "E",
+        "text": "The intensity of the systolic ejection murmur increases dramatically during a severe spell",
+        "answer": false,
+        "explanation": "False. The murmur in TOF is caused by turbulent blood flow across the stenotic right ventricular outflow tract, NOT the VSD (which is large and non-restrictive). During a severe Tet spell, infundibular spasm completely shuts off flow across the RVOT; consequently, the systolic murmur BECOMES SOFTER OR DISAPPEARS ENTIRELY!"
+      }
+    ],
+    "clinical_summary": "Tetralogy of Fallot is the commonest cyanotic congenital heart defect beyond the neonatal period (~10% of all CHD). Presentation: cyanosis ('blue baby'), clubbing, polycythemia, failure to thrive, and hypercyanotic episodes ('Tet spells'). Definitive repair: complete surgical closure of VSD and relief of RVOT obstruction at 3-6 months of age.",
+    "original_notes": "Pages 178-179: TOF. Boot-shaped heart, Tet spell management, knee-chest, morphine."
+  },
+  {
+    "id": "card_062",
+    "page": 198,
+    "deck": "Paediatric Slide Quiz",
+    "category": "Nephrology & Urology",
+    "title": "Post-Streptococcal Glomerulonephritis (PSGN)",
+    "vignette": "A 7-year-old girl presents with tea-colored (smoky) urine, periorbital puffiness, oliguria, and blood pressure of 145/95 mmHg, two weeks following a sore throat:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "Group A beta-hemolytic Streptococcus (Streptococcus pyogenes) is the inciting organism",
+        "answer": true,
+        "explanation": "True. Nephritogenic strains of Streptococcus pyogenes (M types 1, 4, 12 following pharyngitis; types 49, 55, 57 following impetigo/pyoderma) produce nephritogenic proteins (SpeB, NAPlr) that trigger immune-complex glomerulonephritis."
+      },
+      {
+        "id": "B",
+        "text": "Red blood cell casts in urine microscopy confirm glomerular hematuria",
+        "answer": true,
+        "explanation": "True. Passage of erythrocytes through disrupted glomerular basement membranes and trapping in Tamm-Horsfall mucoprotein in distal tubules forms RBC casts, pathognomonic of glomerulonephritis."
+      },
+      {
+        "id": "C",
+        "text": "Serum complement C3 level is characteristically depressed during the acute phase",
+        "answer": true,
+        "explanation": "True. Alternative complement pathway activation by subepithelial immune deposits depletes serum C3 in >90% of patients. C3 levels characteristically normalize within 6-8 weeks."
+      },
+      {
+        "id": "D",
+        "text": "The latent period is typically 1-3 weeks following pharyngitis and 3-6 weeks following skin infection",
+        "answer": true,
+        "explanation": "True. This latency represents the time required for high-affinity IgG antibody production, immune complex formation, and glomerular deposition."
+      },
+      {
+        "id": "E",
+        "text": "High-dose systemic corticosteroids are mandatory for disease resolution",
+        "answer": false,
+        "explanation": "False. PSGN is a self-limiting immune complex disease that does NOT respond to corticosteroids or immunosuppressants. Management is strictly supportive: fluid restriction, dietary sodium restriction, loop diuretics (furosemide) for hypertension and fluid overload, and oral penicillin/erythromycin to eradicate lingering streptococcal carriage."
+      }
+    ],
+    "clinical_summary": "Acute Nephritic Syndrome Triad: 1) Hematuria (gross smoky/coca-cola urine with dysmorphic RBCs and RBC casts), 2) Hypertension, and 3) Oliguria with mild-to-moderate edema (periorbital). Laboratory markers: Low C3, elevated ASO titer (post-pharyngitis) or Anti-DNase B (post-impetigo). Renal biopsy is indicated only if: anuria >48 hours, renal failure requiring dialysis, normal C3, or persistent low C3 beyond 8 weeks.",
+    "original_notes": "Pages 198-199: PSGN. Tea-colored urine, low C3, RBC casts, no steroids needed."
+  },
+  {
+    "id": "card_063",
+    "page": 208,
+    "deck": "Paediatric Slide Quiz",
+    "category": "Infectious Diseases & Tropical Medicine",
+    "title": "Pediatric HIV Infection & Clinical Manifestations",
+    "vignette": "Concerning clinical presentation, diagnosis, and opportunistic infection prophylaxis in pediatric HIV infection:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "Vertical (mother-to-child) transmission is the primary route of pediatric acquisition",
+        "answer": true,
+        "explanation": "True. Mother-to-child transmission during pregnancy, labor/delivery, or breastfeeding accounts for >90% of all pediatric HIV infections globally."
+      },
+      {
+        "id": "B",
+        "text": "In infants under 18 months, HIV DNA/RNA PCR (virological testing) is required for definitive diagnosis",
+        "answer": true,
+        "explanation": "True. Transplacental transfer of maternal anti-HIV IgG antibodies can persist in infant serum up to 18 months of age, making standard serological antibody tests (ELISA, rapid tests) falsely positive. Virological PCR testing (HIV DNA or RNA) is required."
+      },
+      {
+        "id": "C",
+        "text": "Daily Cotrimoxazole (TMP-SMX) prophylaxis prevents Pneumocystis jirovecii pneumonia (PCP)",
+        "answer": true,
+        "explanation": "True. WHO guidelines mandate daily cotrimoxazole prophylaxis initiated at 4-6 weeks of age in all HIV-exposed infants until HIV infection is definitively excluded, protecting against lethal PCP pneumonia, malaria, and toxoplasmosis."
+      },
+      {
+        "id": "D",
+        "text": "Oral candidiasis persisting beyond 1 month of age is a WHO clinical stage 2 sign",
+        "answer": true,
+        "explanation": "True. Persistent oral thrush, chronic parotid swelling, extensive molluscum contagiosum, and recurrent oral ulcerations indicate progressive immune decline."
+      },
+      {
+        "id": "E",
+        "text": "Antiretroviral therapy (ART) should be withheld until CD4 count drops below 200 cells/uL",
+        "answer": false,
+        "explanation": "False. Current universal WHO guidelines recommend 'Treat All': immediate initiation of lifelong combined antiretroviral therapy (cART) upon confirmed diagnosis in ALL children, regardless of clinical stage or CD4 cell count, to maximize neurodevelopment and prevent early mortality."
+      }
+    ],
+    "clinical_summary": "Pediatric HIV Management: Early Infant Diagnosis (EID): HIV DNA PCR at birth (high-risk), 6 weeks, and 9 months, with final antibody test at 18 months. Preferred pediatric ART regimen: Dolutegravir (DTG) dispersible tablets + Abacavir (ABC) + Lamivudine (3TC). Universal Cotrimoxazole prophylaxis from 6 weeks. Screen for TB at every clinic visit.",
+    "original_notes": "Pages 208-209: HIV positive children. DNA PCR for <18mo, cotrimoxazole, treat all."
+  },
+  {
+    "id": "card_064",
+    "page": 244,
+    "deck": "Clinical OSCE Stations",
+    "category": "Infectious Diseases & Tropical Medicine",
+    "title": "OSCE Station: Miliary Tuberculosis on Chest Radiograph",
+    "vignette": "Chest radiograph of a 3-year-old child presenting with prolonged fever of 4 weeks duration, persistent dry cough, weight loss, hepato-splenomegaly, and failure to thrive:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "The chest radiograph demonstrates classic 'miliary' nodules (1-2 mm) diffusely throughout both lung fields",
+        "answer": true,
+        "explanation": "True. The term 'miliary' derives from resemblance to scattered millet seeds: tiny, discrete, uniform 1-2 mm nodular opacities distributed diffusely and symmetrically from apices to bases of both lungs."
+      },
+      {
+        "id": "B",
+        "text": "It results from hematogenous dissemination of Mycobacterium tuberculosis",
+        "answer": true,
+        "explanation": "True. Rupture of a primary caseous pulmonary focus or lymph node into a pulmonary vein or lymphatic duct floods the systemic arterial and pulmonary circulation with tubercle bacilli."
+      },
+      {
+        "id": "C",
+        "text": "Choroidal tubercles may be visible on dilated fundoscopy",
+        "answer": true,
+        "explanation": "True. Direct ophthalmoscopy reveals yellowish-white, elevated, circular retinal lesions (choroidal tubercles) in up to 30-50% of patients with miliary tuberculosis, providing pathognomonic bedside confirmation."
+      },
+      {
+        "id": "D",
+        "text": "Tuberculin Skin Test (Mantoux) is reliably positive in over 95% of patients",
+        "answer": false,
+        "explanation": "False. Severe, overwhelming miliary dissemination causes profound cutaneous anergy, rendering the Mantoux test falsely negative in 40-60% of affected children."
+      },
+      {
+        "id": "E",
+        "text": "Lumbar puncture is mandatory to rule out concurrent tuberculous meningitis",
+        "answer": true,
+        "explanation": "True. Because hematogenous seeding frequently involves the leptomeninges and brain parenchyma (Rich foci), co-existing TB meningitis occurs in 20-40% of pediatric miliary TB cases. CSF examination is essential."
+      }
+    ],
+    "clinical_summary": "Miliary Tuberculosis in Pediatrics: Peak incidence in young infants and children under 3 years due to immature cell-mediated immunity. Multisystem involvement: lungs, liver, spleen, bone marrow, choroid, meninges. Diagnosis: CXR, gastric aspirate GeneXpert MTB/RIF, lumbar puncture, fundoscopy. Treatment: 4-drug intensive phase (Rifampicin, Isoniazid, Pyrazinamide, Ethambutol) for 2 months, followed by 2-drug continuation phase (RH) for 10 months if CNS involvement, plus systemic corticosteroids.",
+    "original_notes": "Pages 244-245: Miliary TB station. Millet seeds, hematogenous spread, choroidal tubercles, false-negative Mantoux."
+  },
+  {
+    "id": "card_065",
+    "page": 252,
+    "deck": "Clinical OSCE Stations",
+    "category": "Infectious Diseases & Tropical Medicine",
+    "title": "OSCE Station: Staphylococcal Scalded Skin Syndrome (SSSS)",
+    "vignette": "A 10-month-old infant presents with irritability, exquisite cutaneous tenderness, perioral crusting, and widespread superficial flaccid bullae with peeling sheets of skin:",
+    "statements": [
+      {
+        "id": "A",
+        "text": "Staphylococcal Scalded Skin Syndrome (Ritter's disease) is the most likely diagnosis",
+        "answer": true,
+        "explanation": "True. The combination of intense skin pain, diffuse erythema, perioral radial fissuring/crusting, and superficial sheet-like epidermal sloughing resembles severe scalding and is diagnostic of SSSS."
+      },
+      {
+        "id": "B",
+        "text": "Exfoliative toxins A and B (exfoliatins) target desmoglein-1 in the epidermis",
+        "answer": true,
+        "explanation": "True. Epidermolytic toxins produced by phage group II Staphylococcus aureus selectively cleave the extracellular domain of desmoglein-1, a cadherin desmosomal cell-adhesion molecule in the stratum granulosum."
+      },
+      {
+        "id": "C",
+        "text": "Nikolsky sign is characteristically positive",
+        "answer": true,
+        "explanation": "True. Gentle lateral tangential shearing pressure on normal-appearing skin causes the superficial epidermis to wrinkle and peel away, producing a positive Nikolsky sign."
+      },
+      {
+        "id": "D",
+        "text": "Intact bullae fluid typically cultures positive for Staphylococcus aureus",
+        "answer": false,
+        "explanation": "False. SSSS is a toxin-mediated distant dermatosis; the bullae are sterile blister fluid containing no bacteria or leukocytes. The primary staphylococcal infection site is typically distant (purulent conjunctivitis, otitis media, umbilical stump, or nasopharynx)."
+      },
+      {
+        "id": "E",
+        "text": "The cleavage plane is subepidermal, leaving scarred skin upon healing",
+        "answer": false,
+        "explanation": "False. The cleavage plane is very superficial, located strictly within the intraepidermal stratum granulosum. Because the deeper stratum basale and dermis remain undamaged, re-epithelialization occurs rapidly within 7-14 days without scarring."
+      }
+    ],
+    "clinical_summary": "SSSS vs Toxic Epidermal Necrolysis (TEN): SSSS (infants/young children, S. aureus exfoliative toxin, cleavage at stratum granulosum, spares mucous membranes, cultures of blisters sterile, heals without scarring); TEN (older children/adults, drug hypersensitivity reaction, full-thickness subepidermal necrosis, severe hemorrhagic mucosal involvement of lips/eyes/genitalia, significant mortality). Treatment of SSSS: IV anti-staphylococcal penicillin (Flucloxacillin, Cloxacillin or Vancomycin/Clindamycin) + fluid/electrolyte maintenance + gentle barrier dressings.",
+    "original_notes": "Pages 252-253: SSSS station. Desmoglein-1 target, Nikolsky positive, blisters are sterile."
+  }
+]
